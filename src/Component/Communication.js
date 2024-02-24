@@ -1,17 +1,17 @@
-import React from 'react'
-import communicate from '../Assets/communicate.png'
+import React from 'react';
+import communicate from '../Assets/communicate.png';
 
 function Communication() {
   return (
     <div className='w-full text-center relative font-MuseoModerno bg-[#e0f7f9] '>
-        <div className="mx-auto flex flex-col items-center">
-            <p className='py-10  text-[#048392] text-sm'>WHERE YOU ARE</p>
-            <h1 className='font-bold text-xl text-black'>Convenient Communication</h1>
-            <p>Chat or Talk with us your Favorite Messenger Platforms</p>
-           <img className="w-[400px]  my-4 py-10 " src={communicate} alt="/" />
-        </div>
+      <div className="mx-auto flex flex-col items-center px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24">
+        <p className='py-4 mb-0 text-[#048392] text-sm'>WHERE YOU ARE</p>
+        <h1 className='font-bold text-xl md:text-2xl lg:text-3xl text-black'>Convenient Communication</h1>
+        <p className='text-md lg:text-lg'>Chat or Talk with us on your favorite messenger platforms</p>
+        <img className="w-full md:w-[80%] lg:w-[70%] xl:w-[60%] my-4 py-10" src={communicate} alt="Communication" />
+      </div>
     </div>
-  )
+  );
 }
 
-export default Communication
+export default Communication;

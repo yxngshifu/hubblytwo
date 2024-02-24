@@ -1,17 +1,39 @@
-import React from 'react'
-import communicate from '../Assets/communicate.png'
+import React from 'react';
+import man from '../Assets/man.png';
+import Oval from '../Assets/oval.png';
 
 function Collaborators() {
+  const OvalStyle = {
+    backgroundImage: `url(${Oval})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'left',
+    backgroundSize: '85% 70%',
+    marginLeft: '15%', // Adjusted the left margin for responsiveness
+  };
+
   return (
-    <div className='w-full text-center relative font-MuseoModerno  '>
-        <div className="mx-auto flex flex-col items-center">
-            <p className='  text-[#048392] text-sm py-10'>STRONG PARTNERSHIPS</p>
-            <h1 className='font-bold text-xl text-black'>Our Collaborations</h1>
-            <p>Join Hubbly and our partners on our journey towards a better future</p>
-           <img className="w-[400px]  my-4 py-10 " src={communicate} alt="/" />
+    <div className='w-full text-center relative font-MuseoModerno'>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-0 mx-auto flex-col items-center">
+        <div className=" py-4"> 
+          <p className='text-[#048392] py-4 mb-2 text-sm'>STRONG PARTNERSHIPS</p>
+          <h1 className='font-bold text-xl md:text-2xl lg:text-3xl text-black'>Our Collaborations</h1>
+          <p className='text-md lg:text-lg'>Join Hubbly and our partners on our journey towards a better future</p>
+
+          <input
+            className='p-2 text-black rounded-full font-medium w-[80%] sm:w-[60%] md:w-[300px] ml-4 my-6 px-6 py-2 border border-[#048392] focus:border-white'
+            type='email'
+            placeholder='Enter Email'
+          />
+          <button className='bg-[#048392] text-[#FFFFFF] rounded-full font-medium w-[120px] ml-3 py-2'>
+            Join Us
+          </button>
         </div>
+        <div style={OvalStyle}>
+          <img className="w-[80%] sm:w-[60%] md:w-[280px] my-20 py-20" src={man} alt="Collaborators" />
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Collaborators
+export default Collaborators;
