@@ -9,7 +9,7 @@ function Howworks() {
       <div className=''>
       <p className='py-4 text-[#048392] text-sm'>QUICK, TRUSTED, AVAILABLE</p>
       <h1 className='font-bold text-black text-3xl'>How Hubbly Works</h1>
-      <p className='text-md mb-8 px-15'>Seamless Booking and Reliable Services From Booking to Fulfillment We Keep You Informed Every Step of the Way</p>
+      <p className='text-md mb-8 px-15 items-center'>Seamless Booking and Reliable Services From Booking to Fulfillment We Keep You Informed Every Step of the Way</p>
       </div>
       <div className='flex items-center overflow-x-auto text-justify'>
         <div className='flex flex-col items-center px-4'>
