@@ -17,6 +17,7 @@ function Collaborators() {
         <div className=" py-4"> 
           <p className='text-[#048392] py-4 mb-2 text-sm'>STRONG PARTNERSHIPS</p>
           <h1 className='font-bold text-xl md:text-2xl lg:text-3xl text-black'>Our Collaborations</h1>
+          <div className='text-justify px-4'>
           <p className='text-md lg:text-lg'>Join Hubbly and our partners on our journey towards a better future</p>
 
           <input
@@ -27,6 +28,7 @@ function Collaborators() {
           <button className='bg-[#048392] text-[#FFFFFF] rounded-full font-medium w-[120px] ml-3 py-2'>
             Join Us
           </button>
+          </div>
         </div>
         <div style={OvalStyle}>
           <img className="w-[80%] sm:w-[60%] md:w-[280px] my-20 py-20" src={man} alt="Collaborators" />

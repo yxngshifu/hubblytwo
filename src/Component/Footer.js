@@ -20,7 +20,7 @@ function Footer() {
             <p className="text-white mt-2">contact@hubbly.me</p>
           </Link>
         </div>
-        <div className="p-5 text-white text-md pb-2 font-semibold">
+        <div className="p-5 text-white text-md pb-2 font-semibold text-justify">
           <ul>
             <li className="hover:text-black cursor-pointer">
               Current State
@@ -36,7 +36,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="p-5 text-white text-md pb-2 font-semibold">
+        <div className="p-5 text-white text-md pb-2 font-semibold text-justify">
           <ul>
             <li className="hover:text-black cursor-pointer">
               Our Services
@@ -52,7 +52,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="p-5 text-white text-md pb-2 font-semibold">
+        <div className="p-5 text-white text-md pb-2 font-semibold text-justify">
           <ul>
             <li className="hover:text-black cursor-pointer">
               Careers
