@@ -8,7 +8,7 @@ function Why() {
           <h1 className='text-black font-bold text-2xl py-2 md:py-2'>Why Choose Hubbly </h1>
       <div className='px-4 md:px-10 lg:px-20 py-4 md:py-4 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-0 text-black mx-auto flex-col items-center'>
         <div className='text-justify'>
-          <p className='  md:px-10 '>Enjoy Quality Home Services at Affordable Prices</p>
+          <p className=' px-4 md:px-10 '>Enjoy Quality Home Services at Affordable Prices</p>
           <ul className="text-justify  py-4   md:py-4 px-4  mb-4 md:px-10 text-black text-md">
             <li> Verified Hubblers</li>
             <li>Transparent & Instant Booking</li>

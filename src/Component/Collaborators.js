@@ -21,11 +21,11 @@ function Collaborators() {
           <p className='py-4 md:py-10 px-4 md:px-10 '>Join Hubbly and our partners on our journey towards a better future</p>
 
           <input
-            className='p-2 text-black rounded-full font-medium w-[80%] sm:w-[60%] md:w-[300px] ml-8 px-6 py-2 border border-[#048392] focus:border-white'
+            className=' text-black rounded-full font-medium w-[80%] sm:w-[60%] md:w-[300px] ml-4 px-4 py-2 mb-4 border border-[#048392] focus:border-white'
             type='email'
             placeholder='Enter Email'
           />
-          <button className='bg-[#048392] text-[#FFFFFF] rounded-full font-medium w-[120px] ml-3 py-2'>
+          <button className='p-2 bg-[#048392] text-[#FFFFFF] rounded-full font-medium w-[120px] ml-3 py-2'>
             Join Us
           </button>
           </div>
