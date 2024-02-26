@@ -19,7 +19,7 @@ function Support() {
           </p>
           </div>
 
-        <div className='px-4 md:px-10 gap-6  lg:px-20   lg:gap-0 text-black w-full  justify-between   md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+        <div className='px-8 md:px-10 gap-6  lg:px-20   lg:gap-0 text-black w-full  justify-between   md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
           <div className=''>
             <h2 className="text-2xl font-bold mb-4 text-[#048392] ">Eco-Friendly Hubblers</h2>
             <p className='text-black'>We've curated a community of Hubblers who share our commitment to sustainable practices. From using eco-friendly cleaning products to adopting green technologies, our Hubblers contribute to a healthier and more sustainable lifestyle for our users.</p>
@@ -41,36 +41,36 @@ function Support() {
 
      <div className='w-full flex justify-center items-center text-center py-8 md:flex-row flex-col'>
       <div className='flex flex-col items-center'>
-        <p className='text-black font-semibold text-2xl'>UN Sustainable Development Goals(SDGs)</p>
-        <h1 className='text-black text-sm'>Hubbly aligns its initiatives with several UN SDGs, including:</h1>
+        <p className='text-black font-semibold text-4xl'>UN Sustainable Development Goals(SDGs)</p>
+        <h1 className='text-black text-2xl'>Hubbly aligns its initiatives with several UN SDGs, including:</h1>
       </div>
     </div>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-8 lg:px-16 xl:px-32'>
+      <div className='px-8 md:px-10 gap-6 py-4  lg:px-20   lg:gap-0 text-black w-full  justify-between   md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
         <div>
-          <img className="w-[80px] my-10" src={takeoff} alt="/" />
-          <h1 className='font-bold text-[#A01B46]'>
+          <img className="w-[80px] my-8" src={takeoff} alt="/" />
+          <h1 className='font-bold text-2xl text-[#A01B46]'>
             Decent Work and Economic Growth
           </h1>
           <p>Growth: By creating opportunities for Hubblers and supporting fair trade, Hubbly contributes to economic growth.</p>
         </div>
         <div>
-          <img className="w-[80px] my-10" src={city} alt="/" />
-          <h1 className='text-[#F9A028] font-bold'>
+          <img className="w-[80px] my-8" src={city} alt="/" />
+          <h1 className='text-[#F9A028] text-2xl font-bold'>
             Sustainable Cities and Communities
           </h1>
           <p>Through our eco-friendly transportation and waste reduction efforts, Hubbly contributes to building sustainable urban communities.</p>
         </div>
         <div>
-          <img className="w-[80px] my-10" src={industry} alt="/" />
-          <h1 className='font-bold text-[#F3642C]'>
+          <img className="w-[80px] my-8" src={industry} alt="/" />
+          <h1 className='font-bold text-2xl text-[#F3642C]'>
             Industry, Innovation, and Infrastructure
           </h1>
           <p>Our commitment to technology-driven solutions and green practices aligns with the goal of fostering innovation.</p>
         </div>
         <div>
-          <img className="w-[80px] my-10" src={climate} alt="/" />
-          <h1 className='font-bold text-[#3C8347]'>
+          <img className="w-[80px] my-8" src={climate} alt="/" />
+          <h1 className='font-bold text-2xl text-[#3C8347]'>
             Climate Action
           </h1>
           <p>Hubbly's electric fleet and waste reduction strategies directly address the need for climate action. By choosing Hubbly, you're not just getting efficient home services; you're becoming part of a movement towards a sustainable, responsible, and eco-friendly future.</p>
