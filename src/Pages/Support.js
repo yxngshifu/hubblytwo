@@ -19,7 +19,7 @@ function Support() {
           </p>
           </div>
 
-        <div className='px-8 md:px-10 gap-6  lg:px-20   lg:gap-0 text-black w-full  justify-between   md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+        <div className='px-8 md:px-10   lg:px-20   lg:gap-10 text-black w-full  justify-between  gap-8  md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
           <div className=''>
             <h2 className="text-2xl font-bold mb-4 text-[#048392] ">Eco-Friendly Hubblers</h2>
             <p className='text-black'>We've curated a community of Hubblers who share our commitment to sustainable practices. From using eco-friendly cleaning products to adopting green technologies, our Hubblers contribute to a healthier and more sustainable lifestyle for our users.</p>
@@ -46,7 +46,7 @@ function Support() {
       </div>
     </div>
 
-      <div className='px-8 md:px-10 gap-6 py-4  lg:px-20   lg:gap-0 text-black w-full  justify-between   md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+      <div className='px-8 md:px-10 gap-8 py-4  lg:px-20   lg:gap-10 text-black w-full  justify-between   md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
         <div>
           <img className="w-[80px] my-8" src={takeoff} alt="/" />
           <h1 className='font-bold text-2xl text-[#A01B46]'>
