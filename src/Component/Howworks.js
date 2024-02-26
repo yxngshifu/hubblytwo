@@ -12,38 +12,38 @@ function Howworks() {
       <p className='text-md   items-center py-4 md:py-10 px-4 md:px-10 '>Seamless Booking and Reliable Services From Booking to Fulfillment We Keep You Informed Every Step of the Way</p>
       </div>
       <div className='flex items-center overflow-x-auto py-4 md:py-20 px-4 md:px-10 mb-4'>
-        <div className='flex flex-col items-center px-4 text-justify '>
-          <img className='w-60 md:w-80 lg:w-68 xl:w-56 my-2' src={search} alt="/" />
-          <div className='text-center'>
-            <h1 className='font-bold'>Find A Service</h1>
-            <ul className="px-4 text-md">
-              <li>Download the app</li>
-              <li>Browse through verified Hubblers available</li> 
-            </ul>
-          </div>
-        </div>
+  <div className='flex-shrink-0 flex flex-col items-center px-4 text-justify'>
+    <img className='w-60 md:w-80 lg:w-68 xl:w-56 my-2' src={search} alt="/" />
+    <div className='text-center'>
+      <h1 className='font-bold'>Find A Service</h1>
+      <ul className="px-4 text-md">
+        <li>Download the app</li>
+        <li>Browse through verified Hubblers available</li> 
+      </ul>
+    </div>
+  </div>
 
-        <div className='flex flex-col items-center px-4 text-justify '>
-          <img className='w-60 md:w-79 lg:w-68 xl:w-56 my-2' src={drive} alt="/" />
-          <div className='text-center'>
-            <h1 className='font-bold'>On Booking</h1>
-            <ul className="px-4 text-md">
-              <li>Seamless Boooking</li>
-              <li>Transparent and Instant payment methods</li> 
-            </ul>
-          </div>
-        </div>
+  <div className='flex-shrink-0 flex flex-col items-center px-4 text-justify'>
+    <img className='w-60 md:w-79 lg:w-68 xl:w-56 my-2' src={drive} alt="/" />
+    <div className='text-center'>
+      <h1 className='font-bold'>On Booking</h1>
+      <ul className="px-4 text-md">
+        <li>Seamless Booking</li>
+        <li>Transparent and Instant payment methods</li> 
+      </ul>
+    </div>
+  </div>
 
-        <div className='flex flex-col items-center px-4 text-justify'>
-          <img className='w-60 md:w-80 lg:w-68 xl:w-56 my-2' src={sit} alt="/" />
-          <div className='text-center'>
-            <h1 className='font-bold'>On Service Day</h1>
-            <ul className=" px-4 text-md">
-              <li>Hubbler Arrival Tracking</li>
-              <li>Efficient Communication</li> 
-            </ul>
-          </div>
-        </div>
+  <div className='flex-shrink-0 flex flex-col items-center px-4 text-justify'>
+    <img className='w-60 md:w-80 lg:w-68 xl:w-56 my-2' src={sit} alt="/" />
+    <div className='text-center'>
+      <h1 className='font-bold'>On Service Day</h1>
+      <ul className="px-4 text-md">
+        <li>Hubbler Arrival Tracking</li>
+        <li>Efficient Communication</li> 
+      </ul>
+    </div>
+  </div>
       </div>
     </div>
   );
