@@ -12,7 +12,7 @@ function Customer() {
 
   return (
     <div className='w-full text-center relative font-MuseoModerno bg-[#e0f7f9]'>
-      <p className='px-10 text-[#048392] text-sm'>CUSTOMER TESTIMONIALS</p>
+      <p className='px-10 text-[#048392] text-sm py-4 '>CUSTOMER TESTIMONIALS</p>
       <h1 className='font-bold text-black text-3xl'>Why our customers love us</h1>
       <p className='text-md'>Hear from Hubbly users about their positive experiences</p>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-0 mx-auto px-4'>
