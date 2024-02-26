@@ -5,12 +5,12 @@ import cooking from '../Assets/cooking.svg';
 
 function Offerings() {
   return (
-    <div className='w-full text-center relative font-MuseoModerno'>
-      <p className='px-4 md:px-10 py-4 md:py-10 text-[#048392] text-sm'>ONE STOP HOME SERVICES</p>
+    <div className='w-full px-10 md:px-40  text-center relative font-MuseoModerno'>
+      <p className=' md:py-4 text-[#048392] text-sm'>ONE STOP HOME SERVICES</p>
       <h1 className='font-bold text-black text-3xl'>Our Offerings</h1>
-      <p className='py-4 md:py-4 px-8 md:px-10 mb-4 text-justify'>Our team of experts is committed to delivering excellence in every service we offer. Whether you need help with house cleaning, dog walking, or in-house cooking, you can trust Hubbly to provide reliable and eco-friendly solutions tailored to your needs.</p>
+      <p className='py-4 md:py-4 px-8  text-justify'>Our team of experts is committed to delivering excellence in every service we offer. Whether you need help with house cleaning, dog walking, or in-house cooking, you can trust Hubbly to provide reliable and eco-friendly solutions tailored to your needs.</p>
       <div className='md:px-20 '>
-      <div className=' flex overflow-x-auto py-4 md:py-20 px-4 md:px-10 mb-4  grid-cols-1 md:grid-cols-3 lg:px-40'>
+      <div className=' flex overflow-x-auto py-4 md:py-8 px-4 md:px-10 mb-4  grid-cols-1 md:grid-cols-3 lg:px-40'>
         <div className='flex-shrink-0  flex flex-col items-center px-4 text-justify mx-4'>
           <img className='w-80 md:w-80 lg:w-80 xl:w-100 my-5' src={cleaning} alt="/" />
           <div className='text-center'>

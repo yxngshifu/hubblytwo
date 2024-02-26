@@ -12,8 +12,8 @@ function Footer() {
   };
 
   return (
-    <div className='w-full relative font-MuseoModerno text-center bg-[#048392]' style={VectorStyle}>
-      <div className="h-1/2 flex flex-col md:flex-row justify-around items-start p-4 md:p-10">
+    <div className='w-full relative px-10 md:px-30 font-MuseoModerno text-center bg-[#048392]' style={VectorStyle}>
+      <div className="h-1/2 flex flex-col md:flex-row justify-around items-start  p-4 md:p-10">
         <div className="p-5">
           <Link to="/" className="mt-4 md:mt-0">
             <img className="w-[120px] mx-auto md:mx-8 flex items-center" src={Asset1} alt="/" />

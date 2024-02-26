@@ -16,9 +16,9 @@ const Hero = () => {
   
     <div className='w-full relative font-MuseoModerno ' >
      
-      <div className='px-10 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 mx-auto flex-col items-center  text-black'>
+      <div className=' grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 mx-auto flex-col items-center  text-black'>
       <div className=''>
-          <div className=" px-10  py-10 text-justify ">
+          <div className=" px-20 md:px-40  text-justify ">
         <h2 className='text-xl md:text-4xl text-black font-bold'>All Your Home needs in One Place</h2>
         <p className='text-xl pb-4 md:text-4xl text-[#048392] font-bold'>Green and Convenient</p>
         <p className='text-xl sm:text-xl mb-4 text-black'>Eco-friendly solutions at Your fingertips  </p>
