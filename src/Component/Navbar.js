@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
           
-        <div className="  font-MuseoModerno  flex justify-between items-center bg-transparent   mx-auto px-4 text-black ">
+        <div className="  font-MuseoModerno bg-transparent  flex justify-between items-center    mx-auto px-4 text-black ">
              <Link to="/">
                 <img className="w-[100px] mx-4 my-4 flex items-center" src={logo1} alt="/" />
                </Link>
