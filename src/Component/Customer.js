@@ -1,12 +1,12 @@
 import React from 'react';
-import comment from '../Assets/comment.png';
+import commentbox from '../Assets/commentbox.svg';
 
 function Customer() {
-  const commentStyle = {
-    backgroundImage: `url(${comment})`,
+  const commentboxStyle = {
+    backgroundImage: `url(${commentbox})`,
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'left',
-    backgroundSize: '80% 60%',
+    backgroundSize: '200% 800%',
     marginLeft: '5%', // Adjusted the left margin for responsiveness
   };
 
@@ -15,19 +15,41 @@ function Customer() {
       <p className='px-10 text-[#048392] text-sm py-4 '>CUSTOMER TESTIMONIALS</p>
       <h1 className='font-bold text-black text-3xl'>Why our customers love us</h1>
       <p className='text-md'>Hear from Hubbly users about their positive experiences</p>
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-0 mx-auto px-4'>
-        <div className='my-4 md:my-0' style={commentStyle}>
-          <p className='px-4 py-4 md:py-20'>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-8 px-40 gap-4">
+       
+        <div className='items-center' style={commentboxStyle}>
+          <p className="">
             My Hubbly experience was fantastic. Dish cleaning has never been easier and flexible!
           </p>
         </div>
-        <div className='my-4 md:my-0' style={commentStyle}>
-          <p className='px-4 py-4 md:py-20'>
+
+        <div className='items-center' style={commentboxStyle}>
+          <p className="">
             My Hubbly experience was fantastic. Dish cleaning has never been easier and flexible!
           </p>
         </div>
-        <div className='my-4 md:my-0' style={commentStyle}>
-          <p className='px-4 py-4 md:py-20'>
+
+         <div className='items-center' style={commentboxStyle}>
+          <p className="">
+            My Hubbly experience was fantastic. Dish cleaning has never been easier and flexible!
+          </p>
+        </div>
+
+         <div className='items-center' style={commentboxStyle}>
+          <p className="">
+            My Hubbly experience was fantastic. Dish cleaning has never been easier and flexible!
+          </p>
+        </div>
+
+        <div className='items-center' style={commentboxStyle}>
+          <p className="">
+            My Hubbly experience was fantastic. Dish cleaning has never been easier and flexible!
+          </p>
+        </div>
+
+        <div className='items-center' style={commentboxStyle}>
+          <p className="">
             My Hubbly experience was fantastic. Dish cleaning has never been easier and flexible!
           </p>
         </div>

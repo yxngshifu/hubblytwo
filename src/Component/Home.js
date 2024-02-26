@@ -22,7 +22,7 @@ function Home() {
       <Howworks/>
       <Communication/>
       <Collaborators/>
-      <Customer/>
+     {/* <Customer/>*/}
       <Offerings/>
       <Goals/>
       <Footer/>
