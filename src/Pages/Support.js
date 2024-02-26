@@ -11,29 +11,29 @@ function Support() {
     <div className='font-MuseoModerno'>
       <Navbar />
             <div className="w-full">
-        <div className="items-center py-10 w-full md:py-16 md:px-8 lg:px-16 xl:px-32">
+        <div className="items-center py-10 w-full md:py-16 md:px-8 lg:px-16 xl:px-32 ">
           <p className='text-[#048392] text-sm text-center'>OUR COMMITMENT TO SUSTAINABILITY</p>
-          <h1 className='text-black font-semibold text-2xl text-center'>Goals We Support</h1>
-          <p className='py-2 text-center'>
+          <h1 className='text-black font-bold text-4xl text-center'>Goals We Support</h1>
+          <p className='py-2 px-20  text-justify'>
             Join Hubbly in achieving UN Sustainable Development Goals. Our Commitment to Sustainability At Hubbly, we believe that every action, no matter how small, contributes to a larger impact on the environment and community. Our commitment to sustainability is woven into the fabric of our operations, reflecting in every service we offer and every connection we make.
           </p>
           </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-8 lg:px-16 xl:px-32'>
-          <div>
-            <h2 className="text-l font-bold mb-4 text-[#048392]">Eco-Friendly Hubblers</h2>
+        <div className='px-4 md:px-10 gap-6  lg:px-20   lg:gap-0 text-black w-full  justify-between   md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+          <div className=''>
+            <h2 className="text-2xl font-bold mb-4 text-[#048392] ">Eco-Friendly Hubblers</h2>
             <p className='text-black'>We've curated a community of Hubblers who share our commitment to sustainable practices. From using eco-friendly cleaning products to adopting green technologies, our Hubblers contribute to a healthier and more sustainable lifestyle for our users.</p>
           </div>
           <div>
-            <h2 className="text-l font-bold mb-4 text-[#048392]">Green Transportation</h2>
+            <h2 className="text-2xl font-bold mb-4 text-[#048392]">Green Transportation</h2>
             <p className='text-black'>Hubbly is proud to lead the way in green mobility. We reward our Hubblers and Hubblee that adopt the use of electric bikes or electric vehicles, not only reducing carbon emissions but also setting the standard for environmentally conscious transportation in the home services industry. By choosing Hubbly, you're contributing to cleaner air and a greener future.</p>
           </div>
           <div>
-            <h2 className="text-l font-bold mb-4 text-[#048392]">Waste Reduction Strategies</h2>
+            <h2 className="text-2xl font-bold mb-4 text-[#048392]">Waste Reduction Strategies</h2>
             <p className='text-black'>We actively discourage single-use packing materials and implement strategies to minimize waste. Hubbly diverts waste away from landfills whenever possible, opting for recycling centres and sustainable disposal methods. It's a step towards a cleaner and less wasteful community.</p>
           </div>
           <div>
-            <h2 className="text-l font-bold mb-4 text-[#048392]">Community Empowerment</h2>
+            <h2 className="text-2xl font-bold mb-4 text-[#048392]">Community Empowerment</h2>
             <p className='text-black'>Our commitment extends beyond the individual to the community at large. Hubbly's sustainable practices empower local communities by creating job opportunities and supporting fair trade principles. We aim to uplift the neighbourhoods we serve, fostering economic growth and social cohesion.</p>
           </div>
         </div>
