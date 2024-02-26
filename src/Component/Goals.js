@@ -1,5 +1,5 @@
 import React from 'react';
-import goals from '../Assets/goals.png';
+import goals1 from '../Assets/goals1.png';
 
 function Goals() {
   return (
@@ -10,7 +10,7 @@ function Goals() {
         <p className='py-4 md:py-4 px-8 text-justify '>
           Join Hubbly in achieving UN Sustainable Development Goals. Our Commitment to Sustainability. At Hubbly, we believe that every action, no matter how small, contributes to a larger impact on the environment and community. Our commitment to sustainability is woven into the fabric of our operations, reflecting in every service we offer and every connection we make.
         </p>
-        <img className="w-full md:w-[300px] my-4 py-10" src={goals} alt="/" />
+        <img className="w-full md:w-[300px] my-4 py-10" src={goals1} alt="/" />
       </div>
     </div>
   );

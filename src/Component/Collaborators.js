@@ -1,16 +1,9 @@
 import React from 'react';
-import man from '../Assets/man.png';
-import Oval from '../Assets/oval.png';
+import collab from '../Assets/collab.png';
 import arrow from '../Assets/arrow.png';
 
 function Collaborators() {
-  const OvalStyle = {
-    backgroundImage: `url(${Oval})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    backgroundSize: '100% 80%',
-    marginLeft: '20%', // Adjusted the left margin for responsiveness
-  };
+ 
    const arrowStyle = {
     backgroundImage: `url(${arrow})`,
     backgroundRepeat: 'no-repeat',
@@ -39,8 +32,8 @@ function Collaborators() {
           </div>
           </div>
         </div>
-        <div className='items-center' style={OvalStyle} >
-          <img className= "w-[60%] sm:w-[60%] md:w-[280px] my-20 py-4" src={man} alt="Collaborators" style={arrowStyle}/>
+        <div className='items-center'  >
+          <img className= "w-[60%] sm:w-[60%] md:w-[280px] my-20 py-4" src={collab} alt="Collaborators" style={arrowStyle}/>
           
         </div>
       </div>

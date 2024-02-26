@@ -4,7 +4,7 @@ function About() {
   return (
     <div className='font-MuseoModerno'>
       <div className=' bg-[#e0f7f9]'>
-        <div className='py-8 md:py-8 px-10 md:px-40 lg:px-40 items-center '>
+        <div className='py-8 md:py-8 px-10 md:px-40 lg:px-60 items-center '>
          <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 mx-auto'>
       <div className='text-black text-md md:text-lg md:py-4 px-4 md:px-10 lg:text-xl xl:text-2xl'>
          <p className='text-[#048392] text-sm py-4  '>PROVIDING HOME SERVICES</p>
