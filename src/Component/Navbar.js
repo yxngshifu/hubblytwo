@@ -35,7 +35,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#f5ebe0] bg-opacity-100 ease-in-out duration-500'
+            ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#003049] bg-opacity-100 ease-in-out duration-500'
             : 'fixed left-[-100%]'
         }
       >
@@ -45,7 +45,7 @@ const Navbar = () => {
 
         {/* Reverted back to a vertical list */}
         {nav && (
-          <ul className='flex-col space-y-4 text-black font-bold p-4 items-center'>
+          <ul className='flex-col space-y-4 text-white font-bold p-4 items-center'>
             {/* Render "Goals we support" link only inside the toggle menu */}
             <li>
               <Link to="/support">
