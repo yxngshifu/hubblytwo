@@ -18,10 +18,10 @@ function Collaborators() {
           <p className='text-[#048392] py-4 mb-2 text-sm'>STRONG PARTNERSHIPS</p>
           <h1 className='font-bold text-xl md:text-2xl lg:text-3xl text-black'>Our Collaborations</h1>
           <div className='text-justify px-4'>
-          <p className='text-md lg:text-lg'>Join Hubbly and our partners on our journey towards a better future</p>
+          <p className='py-4 md:py-10 px-4 md:px-10 '>Join Hubbly and our partners on our journey towards a better future</p>
 
           <input
-            className='p-2 text-black rounded-full font-medium w-[80%] sm:w-[60%] md:w-[300px] ml-4 my-6 px-6 py-2 border border-[#048392] focus:border-white'
+            className='p-2 text-black rounded-full font-medium w-[80%] sm:w-[60%] md:w-[300px] ml-8 px-6 py-2 border border-[#048392] focus:border-white'
             type='email'
             placeholder='Enter Email'
           />
