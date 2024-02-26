@@ -1,14 +1,22 @@
 import React from 'react';
 import man from '../Assets/man.png';
 import Oval from '../Assets/oval.png';
+import arrow from '../Assets/arrow.png';
 
 function Collaborators() {
   const OvalStyle = {
     backgroundImage: `url(${Oval})`,
     backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'left',
-    backgroundSize: '85% 70%',
-    marginLeft: '15%', // Adjusted the left margin for responsiveness
+    backgroundPosition: 'center',
+    backgroundSize: '60% 80%',
+    marginLeft: '10%', // Adjusted the left margin for responsiveness
+  };
+   const arrowStyle = {
+    backgroundImage: `url(${arrow})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'right',
+    backgroundSize: '85% 100%',
+    marginLeft: '20%', // Adjusted the left margin for responsiveness
   };
 
   return (
@@ -25,13 +33,14 @@ function Collaborators() {
             type='email'
             placeholder='Enter Email'
           />
-          <button className='p-2 bg-[#048392] text-[#FFFFFF] rounded-full font-medium w-[120px] ml-3 py-2'>
+          <button className='p-4 bg-[#048392] text-[#FFFFFF] rounded-full font-medium w-[120px] ml-4 py-2'>
             Join Us
           </button>
           </div>
         </div>
-        <div style={OvalStyle}>
-          <img className="w-[80%] sm:w-[60%] md:w-[280px] my-20 py-20" src={man} alt="Collaborators" />
+        <div className='items-center' style={OvalStyle} >
+          <img className= "w-[60%] sm:w-[60%] md:w-[280px] my-20 py-4" src={man} alt="Collaborators" style={arrowStyle}/>
+          
         </div>
       </div>
     </div>

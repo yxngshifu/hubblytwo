@@ -1,5 +1,5 @@
 import React from 'react';
-import car from '../Assets/car.png';
+import car from '../Assets/car.svg';
 
 function Greenmaker() {
   return (
