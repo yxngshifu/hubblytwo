@@ -24,7 +24,7 @@ function Collaborators() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-0 mx-auto flex-col items-center">
         <div className=" py-4"> 
           <p className='text-[#048392] py-4 mb-2 text-sm'>STRONG PARTNERSHIPS</p>
-          <h1 className='font-bold text-xl md:text-2xl lg:text-3xl text-black'>Our Collaborations</h1>
+          <h1 className='font-bold md:text-2xl lg:text-3xl text-3xl text-black'>Our Collaborations</h1>
           <div className='text-justify px-4'>
           <p className='py-4 md:py-10 px-4 md:px-10 '>Join Hubbly and our partners on our journey towards a better future</p>
 

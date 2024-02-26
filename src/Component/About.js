@@ -5,7 +5,7 @@ function About() {
     <div className='font-MuseoModerno'>
       <div className=' bg-[#e0f7f9]'>
         <p className='text-[#048392] text-sm md:py-4 py-4  text-center'>PROVIDING HOME SERVICES</p>
-         <h1 className='text-black text-xl md:text-2xl lg:text-3xl  md:py-4 px-4 md:px-10 text-center font-bold'>About Us</h1>
+         <h1 className='text-black  md:text-2xl lg:text-3xl  md:py-4 px-4 md:px-10 text-center font-bold text-3xl'>About Us</h1>
         <div className='py-8 md:py-10 px-4 md:px-10 lg:px-20 items-center '>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 mx-auto'>
           <p className='text-black text-md md:text-lg md:py-4 px-4 md:px-10  lg:text-xl xl:text-2xl'>
