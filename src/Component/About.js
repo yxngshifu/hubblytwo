@@ -13,7 +13,7 @@ function About() {
           Experience hassle-free home services with Hubbly. Say goodbye to chores and scheduling stress. Your trusted partner for reliable services. We're a vibrant community of like-minded individuals dedicated to promoting responsible living and environmental stewardship.
         </p>
         <p className='text-[#048392] text-sm'>Empowering Users, Empowering Communities</p>
-        <p className='text-[#048392] text-lg cursor-pointer underline'>Learn more</p>
+        <p className='text-[#048392] text-lg cursor-pointer '>Learn more</p>
       </div>
 
       <div className="w-full h-full flex items-center justify-center order-first lg:order-last">

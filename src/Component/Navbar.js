@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* Render "Goals we support" link only on larger screens */}
         <li className="hidden md:block">
           <Link to="/support">
-            Goals we support
+            Goals We Support
           </Link>
         </li>
       </ul>
