@@ -1,5 +1,5 @@
 import React from 'react';
-import communicate from '../Assets/communicate.png';
+import communicate1 from '../Assets/communicate1.png';
 
 function Communication() {
   return (
@@ -8,7 +8,7 @@ function Communication() {
         <p className='py-4 mb-0 text-[#048392] text-sm'>WHERE YOU ARE</p>
         <h1 className='font-bold text-xl md:text-2xl lg:text-3xl text-black'>Convenient Communication</h1>
         <p className='text-md lg:text-lg'>Chat or Talk with us on your favorite messenger platforms</p>
-        <img className="w-full md:w-[80%] lg:w-[70%] xl:w-[60%] my-4 py-10" src={communicate} alt="Communication" />
+        <img className="w-full md:w-[50%] lg:w-[70%] xl:w-[60%] my-4 py-10" src={communicate1} alt="Communication" />
       </div>
     </div>
   );
