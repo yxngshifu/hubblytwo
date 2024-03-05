@@ -5,7 +5,7 @@ function Collaborators() {
   return (
     <div className='w-full text-center relative font-MuseoModerno md:px-8 lg:px-40 py-4'>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-0 mx-auto flex-col items-center">
-        <div className="text-center py-4 md:py-20 lg:px-40 px-4 md:px-10 mb-4">
+        <div className="text-center py-4 md:py-20 px-4 sm:px-8 lg:px-60 mb-4">
           <p className='text-[#048392] mb-2 text-sm'>STRONG PARTNERSHIPS</p>
           <h1 className='font-bold md:text-2xl lg:text-3xl text-3xl text-black'>Our Collaborations</h1>
           <div className=''>
