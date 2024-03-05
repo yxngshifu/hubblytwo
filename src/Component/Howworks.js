@@ -5,13 +5,13 @@ import sit from '../Assets/sit.svg';
 
 function Howworks() {
   return (
-    <div className='w-full text-center items-center px-10  md:px-40 font-MuseoModerno'>
+    <div className='w-full text-center items-center px-10  md:px-40 font-MuseoModerno py-8'>
       <div className=''>
-      <p className='py-4 md:py-8 text-[#048392] text-sm'>QUICK, TRUSTED, AVAILABLE</p>
+      <p className=' text-[#048392] text-sm'>QUICK, TRUSTED, AVAILABLE</p>
       <h1 className='font-bold text-black text-3xl'>How Hubbly Works</h1>
-      <p className='text-md   items-center py-4 md:py-4 px-4  '>Seamless Booking and Reliable Services From Booking to Fulfillment We Keep You Informed Every Step of the Way</p>
+      <p className='text-md   items-center  px-4   '>Seamless Booking and Reliable Services From Booking to Fulfillment We Keep You Informed Every Step of the Way</p>
       </div>
-      <div className='flex items-center overflow-x-auto py-4 md:py-20 px-4 md:px-20 lg:px-40 mb-4'>
+      <div className='flex items-center overflow-x-auto py-4 md:py-20 px-4 md:px-20 lg:px-60 mb-4'>
   <div className='flex-shrink-0 flex flex-col items-center px-4 text-justify'>
     <img className='w-60 md:w-80 lg:w-68 xl:w-56 my-2' src={search} alt="/" />
     <div className='text-center'>

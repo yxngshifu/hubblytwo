@@ -4,11 +4,11 @@ function About() {
   return (
     <div className='font-MuseoModerno'>
       <div className=' bg-[#e0f7f9]'>
-        <div className='py-8 md:py-8 px-10 md:px-40 lg:px-60 items-center '>
-         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 mx-auto'>
-      <div className='text-black text-md md:text-lg md:py-4 px-4 md:px-10 lg:text-xl xl:text-2xl'>
-         <p className='text-[#048392] text-sm py-4  '>PROVIDING HOME SERVICES</p>
-         <h1 className='text-black  md:text-2xl lg:text-3xl    font-bold text-3xl'>About Us</h1>
+        <div className='py-8 md:py-8 px-10 md:px-50 lg:px-80  items-center '>
+         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-8 '>
+      <div className='text-black text-md md:text-lg md:py-4 lg:py-12 px-4 md:px-10 lg:text-xl xl:text-2xl'>
+         <p className='text-[#048392] text-sm   '>PROVIDING HOME SERVICES</p>
+         <h1 className='text-black  md:text-2xl lg:text-4xl    font-bold text-3xl'>About Us</h1>
         <p>
           Experience hassle-free home services with Hubbly. Say goodbye to chores and scheduling stress. Your trusted partner for reliable services. We're a vibrant community of like-minded individuals dedicated to promoting responsible living and environmental stewardship.
         </p>
