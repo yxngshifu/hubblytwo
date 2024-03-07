@@ -62,10 +62,25 @@ const Navbar = () => {
           <ul className='flex-col space-y-4 text-white font-bold p-4 items-center'>
             {/* Render "Goals we support" link only inside the toggle menu */}
             <li>
+              <Link to="/aboutus">
+            About Us
+          </Link>
+            </li>
+            <li>
               <Link to="/support">
             Goals we support
           </Link>
             </li>
+             <li className="hidden md:block">
+          <Link to="/hubblyworks">
+            How Hubbly Works
+          </Link>
+        </li>
+         <li className="hidden md:block">
+          <Link to="/ourofferings">
+            Our Offerings
+          </Link>
+        </li>
           </ul>
         )}
       </div>
