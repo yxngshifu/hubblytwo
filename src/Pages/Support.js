@@ -10,7 +10,7 @@ function Support() {
   return (
     <div className='font-MuseoModerno'>
       <Navbar />
-            <div className="w-full px-10 md:px-10">
+            <div className="w-full px-10 md:px-20">
         <div className="items-center py-10 w-full md:py-16 md:px-8 lg:px-16 xl:px-32 ">
           <p className='text-[#048392] text-sm text-center'>OUR COMMITMENT TO SUSTAINABILITY</p>
           <h1 className='text-black font-bold text-4xl text-center'>Goals We Support</h1>
@@ -46,7 +46,7 @@ function Support() {
       </div>
     </div>
 
-      <div className=' gap-8   px-20 lg:px-40   lg:gap-10 text-black w-full  justify-between   md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+      <div className=' gap-8   px-20 lg:px-60   lg:gap-10 text-black w-full  justify-between   md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
         <div>
           <img className="w-[80px] my-4" src={takeoff} alt="/" />
           <h1 className='font-bold text-2xl text-[#A01B46]'>

@@ -22,7 +22,6 @@ function Home() {
       <Howworks/>
       <Communication/>
       <Collaborators/>
-     {/* <Customer/>*/}
       <Offerings/>
       <Goals/>
       <Footer/>

@@ -23,13 +23,15 @@ function Footer() {
         <div className="p-5 text-white text-md pb-2 font-semibold text-justify">
           <ul>
             <li className="hover:text-black cursor-pointer">
-              Current State
+               <Link to="/aboutus">
+              About Us
+               </Link>
             </li>
             <li className="hover:text-black cursor-pointer">
-              Our Green Formula
+             What makes Us Green?
             </li>
             <li className="hover:text-black cursor-pointer">
-              Why Book With Us
+              Why Choose Us
             </li>
             <li className="hover:text-black cursor-pointer">
               How It Works
@@ -39,29 +41,37 @@ function Footer() {
         <div className="p-5 text-white text-md pb-2 font-semibold text-justify">
           <ul>
             <li className="hover:text-black cursor-pointer">
-              Our Services
-            </li>
-            <li className="hover:text-black cursor-pointer">
-              Our Philosophy
+               <Link to="/ourofferings">
+              Our Offerings
+              </Link>
             </li>
             <li className="hover:text-black cursor-pointer">
               Contact Us
             </li>
             <li className="hover:text-black cursor-pointer">
+               <Link to="/support">
               Sustainable Goals
+              </Link>
             </li>
           </ul>
         </div>
         <div className="p-5 text-white text-md pb-2 font-semibold text-justify">
           <ul>
             <li className="hover:text-black cursor-pointer">
-              Careers
-            </li>
-            <li className="hover:text-black cursor-pointer">
-              Tradesmen
-            </li>
-            <li className="hover:text-black cursor-pointer">
               Testimonials
+            </li>
+            <li className="hover:text-black cursor-pointer">
+               <Link to="/privacy">
+              Join Hubbly Community
+              </Link>
+            </li>
+             <li className="hover:text-black cursor-pointer">
+               <Link to="/privacy">
+              Privacy Policy
+              </Link>
+            </li>
+            <li className="hover:text-black cursor-pointer">
+              Terms & Condtions
             </li>
           </ul>
         </div>

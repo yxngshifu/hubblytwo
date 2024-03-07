@@ -17,11 +17,25 @@ const Navbar = () => {
         <Link to="/">
           <img className="w-[100px] mx-4 my-4 flex items-center" src={logo1} alt="/" />
         </Link>
-
-        {/* Render "Goals we support" link only on larger screens */}
+ <li className="hidden md:block">
+          <Link to="/aboutus">
+            About Us
+          </Link>
+        </li>
+    
         <li className="hidden md:block">
           <Link to="/support">
             Goals We Support
+          </Link>
+        </li>
+         <li className="hidden md:block">
+          <Link to="/hubblyworks">
+            How Hubbly Works
+          </Link>
+        </li>
+         <li className="hidden md:block">
+          <Link to="/ourofferings">
+            Our Offerings
           </Link>
         </li>
       </ul>
