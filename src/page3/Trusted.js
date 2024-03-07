@@ -1,5 +1,5 @@
 import React from 'react'
-import bgtrust from '/Users/shifu/hubblytwo/src/Assets/bgtrust.png'
+import bgtrust from '../Assets/bgtrust.png'
 function Trusted() {
     const bgimage = {
     backgroundImage: `url(${bgtrust})`,

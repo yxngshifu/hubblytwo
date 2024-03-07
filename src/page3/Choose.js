@@ -1,5 +1,5 @@
 import React from 'react';
-import categories from '/Users/shifu/hubblytwo/src/Assets/categories.png';
+import categories from '../Assets/categories.png';
 
 function Choose() {
   return (

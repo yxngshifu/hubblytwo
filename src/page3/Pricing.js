@@ -1,5 +1,5 @@
 import React from 'react';
-import pricing from '/Users/shifu/hubblytwo/src/Assets/pricing.svg';
+import pricing from '../Assets/pricing.svg';
 
 function Pricing() {
   return (

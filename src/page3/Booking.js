@@ -1,7 +1,7 @@
 import React from 'react';
-import onebook from '/Users/shifu/hubblytwo/src/Assets/onebook.png';
-import twobook from '/Users/shifu/hubblytwo/src/Assets/twobook.png';
-import threebook from '/Users/shifu/hubblytwo/src/Assets/threebook.png';
+import onebook from '../Assets/onebook.png';
+import twobook from '../Assets/twobook.png';
+import threebook from '../Assets/threebook.png';
 
 function Howworks() {
   return (

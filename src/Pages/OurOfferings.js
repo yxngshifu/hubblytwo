@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from '../Component/Navbar';
-import cooking from '/Users/shifu/hubblytwo/src/Assets/cooking.svg';
-import dogwalking from '/Users/shifu/hubblytwo/src/Assets/dogwalking.svg';
-import cleaning  from '/Users/shifu/hubblytwo/src/Assets/cleaning.svg';
-import dishcleaning  from '/Users/shifu/hubblytwo/src/Assets/dishcleaning.png';
-import hairmaking from '/Users/shifu/hubblytwo/src/Assets/hairmaking.png';
+import cooking from '../Assets/cooking.svg';
+import dogwalking from '../Assets/dogwalking.svg';
+import cleaning  from '../Assets/cleaning.svg';
+import dishcleaning  from '../Assets/dishcleaning.png';
+import hairmaking from '../Assets/hairmaking.png';
 import Footer from '../Component/Footer';
 
 

@@ -1,12 +1,27 @@
 import React from 'react'
-import ourmission from '/Users/shifu/hubblytwo/src/Assets/ourmission.png';
+import ourmission from '../Assets/ourmission.png';
 import Navbar from '../Component/Navbar';
-import phones from '/Users/shifu/hubblytwo/src/Assets/phones.png';
+import phones from '../Assets/phones.png';
+import Community from '../Assets/community.png';
 import Footer from '../Component/Footer';
 function AboutUs() {
   return (
      <div className='font-MuseoModerno '>
         <Navbar/>
+        <div className='w-full relative font-MuseoModerno px-4 sm:px-6 md:px-8 lg:px-40 xl:px-40 2xl:px-80 text-center'>
+        <div className='px-4 gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+          <div className="text-justify ">
+            <h1 className='text-black font-bold text-4xl px-16 md:px-32'>About Us</h1>
+            <p className="px-16 py-4 md:px-32">
+            <p className='font-bold'> Welcome to Hubbly, your go-to platform for convenient and reliable household services. </p>
+At Hubbly, we understand the demands of modern life, which is why we're here to make your life easier by connecting you with skilled professionals for a range of home-related tasks.
+            </p>
+          </div>
+          <div className="md:w-[400px] px-4 md:px-10">
+            <img className="w-full" src={Community} alt="In-house Cooking" />
+          </div>
+        </div>
+      </div>
         <div className='bg-[#e0f7f9]'>
          <div className='w-full relative font-MuseoModerno px-4 sm:px-6 md:px-8 lg:px-40 xl:px-40 2xl:px-80 text-center'>
         <div className='px-4 lg:gap-0 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>

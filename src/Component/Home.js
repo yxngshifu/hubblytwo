@@ -9,8 +9,7 @@ import Collaborators from './Collaborators'
 import Footer from './Footer'
 import Goals from './Goals'
 import Offerings from './Offerings'
-import { Link } from 'react-router-dom';
-import Customer from './Customer'
+
 
 function Home() {
   return (

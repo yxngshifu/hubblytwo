@@ -1,5 +1,5 @@
 import React from 'react';
-import supportive from '/Users/shifu/hubblytwo/src/Assets/supportive.svg';
+import supportive from '../Assets/supportive.svg';
 
 function Supportive() {
   return (
