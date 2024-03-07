@@ -61,7 +61,7 @@ function Footer() {
               Testimonials
             </li>
             <li className="hover:text-black cursor-pointer">
-               <Link to="/privacy">
+               <Link to="/interestform">
               Join Hubbly Community
               </Link>
             </li>

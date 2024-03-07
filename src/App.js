@@ -22,6 +22,7 @@ import Supportive from './page3/Supportive'
 import Privacy from './Component/Privacy'
 import OurOfferings from './Pages/OurOfferings'
 import AboutUs from './Pages/AboutUs'
+import InterestForm from './Pages/InterestForm'
 function App() {
   return (
     <div>
@@ -48,6 +49,7 @@ function App() {
          <Route path="privacy" element={<Privacy/>} />
           <Route path="ourofferings" element={<OurOfferings/>} />
           <Route path="aboutus" element={<AboutUs/>} />
+           <Route path="interestform" element={<InterestForm/>} />
         </Routes>
     </div>
   /</Router>

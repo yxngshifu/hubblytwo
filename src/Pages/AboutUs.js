@@ -18,7 +18,7 @@ At Hubbly, we understand the demands of modern life, which is why we're here to 
             </p>
           </div>
           <div className="md:w-[400px] px-4 md:px-10">
-            <img className="w-full" src={Community} alt="In-house Cooking" />
+            <img className="w-full" src={Community} alt="" />
           </div>
         </div>
       </div>
