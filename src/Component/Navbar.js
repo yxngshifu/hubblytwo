@@ -40,16 +40,15 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Render toggle button */}
       <div onClick={handleNav} className='block md:hidden'>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
-      {/* Render toggle menu only on smaller screens */}
+      
       <div
         className={
           nav
-            ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#003049] bg-opacity-100 ease-in-out duration-500'
+            ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#003049]  ease-in-out duration-500'
             : 'fixed left-[-100%]'
         }
       >
@@ -60,7 +59,6 @@ const Navbar = () => {
         {/* Reverted back to a vertical list */}
         {nav && (
           <ul className='flex-col space-y-4 text-white font-bold p-4 items-center'>
-            {/* Render "Goals we support" link only inside the toggle menu */}
             <li>
               <Link to="/aboutus">
             About Us
@@ -71,12 +69,12 @@ const Navbar = () => {
             Goals we support
           </Link>
             </li>
-             <li className="hidden md:block">
+             <li className="">
           <Link to="/hubblyworks">
             How Hubbly Works
           </Link>
         </li>
-         <li className="hidden md:block">
+         <li className="">
           <Link to="/ourofferings">
             Our Offerings
           </Link>
