@@ -12,7 +12,7 @@ function OurOfferings() {
   return (
     <div className='font-MuseoModerno'>
       <Navbar />
-      <div className="w-full px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-80">
+      <div className="w-full py-14 md:py-20 lg:py-30 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-80">
         <div className="items-center py-10 md:py-16">
           <h1 className='text-black font-bold text-4xl text-center'>Our Offerings</h1>
           <p className='py-2 px-4 md:px-10 text-justify'>
