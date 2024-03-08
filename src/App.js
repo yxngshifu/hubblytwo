@@ -23,6 +23,7 @@ import Privacy from './Component/Privacy'
 import OurOfferings from './Pages/OurOfferings'
 import AboutUs from './Pages/AboutUs'
 import InterestForm from './Pages/InterestForm'
+import Terms from './Component/Terms'
 function App() {
   return (
     <div>
@@ -47,6 +48,7 @@ function App() {
          <Route path="pricing" element={<Pricing/>} />
          <Route path="wesupport" element={<Supportive/>} />
          <Route path="privacy" element={<Privacy/>} />
+         <Route path="terms" element={<Terms/>} />
           <Route path="ourofferings" element={<OurOfferings/>} />
           <Route path="aboutus" element={<AboutUs/>} />
            <Route path="interestform" element={<InterestForm/>} />

@@ -71,7 +71,9 @@ function Footer() {
               </Link>
             </li>
             <li className="hover:text-black cursor-pointer">
+              <Link to="/terms">
               Terms & Condtions
+              </Link>
             </li>
           </ul>
         </div>

@@ -6,8 +6,8 @@ function Privacy() {
   return (
     <div className='font-MuseoModerno'>
       <Navbar />
-      <div className="w-full px-10 md:px-20 justify-center">
-        <div className="items-center py-10 w-full md:py-16 md:px-8 lg:px-16 xl:px-32">
+      <div className="w-full px-10 md:px-40 justify-center">
+        <div className="items-center py-10 w-full md:py-20 md:px-8 lg:px-16 xl:px-32">
           <p className='text-[#048392] text-sm text-center'>PRIVACY POLICY</p>
           <h1 className='text-black font-bold text-4xl text-center'>Hubbly Privacy Policy</h1>
           <p className='py-2 px-10 text-justify'>
