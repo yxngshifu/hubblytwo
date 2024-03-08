@@ -10,9 +10,9 @@ function Pricing() {
           <img className=" md:w-[400px] px-10 lg:px-10 my-4" src={pricing} alt="/" />
         </div>
         <div className="text-justify">
-             <p className='text-[#048392] text-sm   '>PRICING</p>
-      <h1 className='text-black font-bold text-3xl px-10 '>Transparent Pricing</h1>
-  <p className="py-4 md:py-20 lg:px-20 px-4 md:px-10 mb-4">
+             <p className='text-[#048392] text-sm px-4 lg:px-20 md:px-10   '>PRICING</p>
+      <h1 className='text-black font-bold text-3xl px-4  lg:px-20 '>Transparent Pricing</h1>
+  <p className="py-4 md:py-4 lg:px-20 px-4 md:px-4 mb-4">
    At Hubbly, we believe in transparency. You'll always know exactly what you're paying for upfront, with no hidden fees or surprises.
   </p>
 </div>

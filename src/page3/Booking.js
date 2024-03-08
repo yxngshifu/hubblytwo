@@ -11,12 +11,12 @@ function Howworks() {
       <h1 className='font-bold text-black text-3xl'>Our Booking Process</h1>
       <p className='text-md   items-center  px-4 lg:px-80  '>With Hubbly, booking your desired service is quick and hassle-free. Simply select the service you need, choose a date and time that works for you, and let us handle the rest.</p>
       </div>
-      <div className='flex items-center overflow-x-auto py-4 md:py-20 px-4 md:px-20 lg:px-60 mb-4'>
+      <div className='flex items-center overflow-x-auto py-4 md:py-10 px-4 md:px-20 lg:px-60 mb-4'>
   <div className='flex-shrink-0 flex flex-col items-center px-4 text-justify'>
-    <img className='w-60 md:w-80 lg:w-68 xl:w-56 my-2' src={onebook} alt="/" />
+    <img className='w-40 md:w-70 lg:w-68 xl:w-40 my-2' src={onebook} alt="/" />
     <div className='text-center'>
       <h1 className='font-bold'>1</h1>
-      <ul className="px-4 text-md">
+      <ul className="px-10 lg:px-80 text-md">
       
         <li>Download mobile app play store/app store & Sign Up. </li> 
       </ul>
@@ -24,7 +24,7 @@ function Howworks() {
   </div>
 
   <div className='flex-shrink-0 flex flex-col items-center px-4 text-justify'>
-    <img className='w-60 md:w-79 lg:w-68 xl:w-56 my-2' src={twobook} alt="/" />
+    <img className='w-40 md:w-79 lg:w-68 xl:w-40 my-2' src={twobook} alt="/" />
     <div className='text-center'>
       <h1 className='font-bold'>2</h1>
       <ul className="px-4 text-md">
@@ -35,7 +35,7 @@ function Howworks() {
   </div>
 
   <div className='flex-shrink-0 flex flex-col items-center px-4 text-justify'>
-    <img className='w-60 md:w-80 lg:w-68 xl:w-56 my-2' src={threebook} alt="/" />
+    <img className='w-40 md:w-580 lg:w-68 xl:w-40  my-2' src={threebook} alt="/" />
     <div className='text-center'>
       <h1 className='font-bold'>3</h1>
       <ul className="px-4 text-md">
