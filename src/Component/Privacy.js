@@ -5,37 +5,39 @@ import Footer from './Footer'
 function Privacy() {
   return (
     <div className='font-MuseoModerno'>
-        <Navbar/>
-            <div className="w-full px-10 md:px-20">
-        <div className="items-center py-10 w-full md:py-16 md:px-8 lg:px-16 xl:px-32 ">
+      <Navbar />
+      <div className="w-full px-10 md:px-20 justify-center">
+        <div className="items-center py-10 w-full md:py-16 md:px-8 lg:px-16 xl:px-32">
           <p className='text-[#048392] text-sm text-center'>PRIVACY POLICY</p>
           <h1 className='text-black font-bold text-4xl text-center'>Hubbly Privacy Policy</h1>
-          <p className='py-2 px-10  text-justify'>
-          <h1 className='py-4 '> Last Updated: 29th February 2024</h1>
-Welcome to Hubbly! This Privacy Policy describes how Hubbly ("we," "our," or "us") collects, uses, and shares your information when you use our mobile application, website, and related services (collectively, the "Service"). By accessing or using the Service, you agree to the terms of this Privacy Policy.
-</p>
-   <h1 className='text-[#048392] px-10'>1. Information We Collect</h1>
-    <p className='py-2 px-10  text-justify'>
-<h1 className=' py-2'>1.1 Personal Information</h1>
-When Hubblee and Hubbler create a Hubbly account, we may collect personal information such as their name, email address, phone number, and payment details.
-<h1 className=' py-2'>1.2 Additional Information</h1>
-We may collect additional information from Hubblee and Hubbler, including their location, service preferences, and feedback.
-<h1 className=' py-2'>1.3 Information from Third Parties:</h1>
-We may receive information about Hubblee and Hubbler from third-party services, such as social media platforms, if they choose to link their account.
-</p>
-<h1 className='text-[#048392] px-10'>2. How We Use Your Information</h1>
-  <p className='py-2 px-10  text-justify'>
-    <h1 className=' py-2'>2.1 Provide and Improve Services:</h1>
-We use Hubblee' and Hubbler' information to provide and improve our services, including matching them with service requests, processing payments, and enhancing user experience.
-<h1 className=' py-2'>2.2 Communications:</h1>
-We may use Hubblee' and Hubbler' information to communicate with them about their account, service requests, promotions, surveys, and updates.
-<h1 className=' py-2'>2.3 Analytics and Research:</h1>
-We may use Hubblee' and Hubbler' information for data analysis, research, and to improve the effectiveness of our services and marketing efforts.
-<h1 className=' py-2'>2.4 Improvements and Modifications:</h1>
-Hubbly continuously develops and enhances its services. We may use collected data to improve the quality and operation of the Hubbly platform.
-<h1 className=' py-2'>2.5 Personalization:</h1>
-We may use your information to personalize your experience and provide content and services tailored to your preferences.
-</p>
+          <p className='py-2 px-10 text-justify'>
+            <h1 className='py-4'>Last Updated: 29th February 2024</h1>
+            Welcome to Hubbly! This Privacy Policy describes how Hubbly ("we," "our," or "us") collects, uses, and shares your information when you use our mobile application, website, and related services (collectively, the "Service"). By accessing or using the Service, you agree to the terms of this Privacy Policy.
+          </p>
+
+          <h1 className='text-[#048392] px-10'>1. Information We Collect</h1>
+          <p className='py-2 px-10 text-justify'>
+            <h1 className=' py-2'>1.1 Personal Information</h1>
+            When Hubblee and Hubbler create a Hubbly account, we may collect personal information such as their name, email address, phone number, and payment details.
+            <h1 className=' py-2'>1.2 Additional Information</h1>
+            We may collect additional information from Hubblee and Hubbler, including their location, service preferences, and feedback.
+            <h1 className=' py-2'>1.3 Information from Third Parties:</h1>
+            We may receive information about Hubblee and Hubbler from third-party services, such as social media platforms, if they choose to link their account.
+          </p>
+
+          <h1 className='text-[#048392] px-10'>2. How We Use Your Information</h1>
+          <p className='py-2 px-10 text-justify'>
+            <h1 className=' py-2'>2.1 Provide and Improve Services:</h1>
+            We use Hubblee' and Hubbler' information to provide and improve our services, including matching them with service requests, processing payments, and enhancing user experience.
+            <h1 className=' py-2'>2.2 Communications:</h1>
+            We may use Hubblee' and Hubbler' information to communicate with them about their account, service requests, promotions, surveys, and updates.
+            <h1 className=' py-2'>2.3 Analytics and Research:</h1>
+            We may use Hubblee' and Hubbler' information for data analysis, research, and to improve the effectiveness of our services and marketing efforts.
+            <h1 className=' py-2'>2.4 Improvements and Modifications:</h1>
+            Hubbly continuously develops and enhances its services. We may use collected data to improve the quality and operation of the Hubbly platform.
+            <h1 className=' py-2'>2.5 Personalization:</h1>
+            We may use your information to personalize your experience and provide content and services tailored to your preferences.
+          </p>
  <h1 className='text-[#048392] px-10'>3. Your Choices</h1>
  <p className='py-2 px-10  text-justify'>
 <h1 className=' py-2'>3.1 Account Information:</h1>

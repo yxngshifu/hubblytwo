@@ -10,7 +10,7 @@ function AboutUs() {
         <Navbar/>
         <div className='w-full relative font-MuseoModerno px-4 sm:px-6 md:px-8 lg:px-40 xl:px-40 2xl:px-80 text-center'>
         <div className='px-4 gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
-          <div className="text-justify ">
+          <div className="text-justify lg:py-40 ">
             <h1 className='text-black font-bold text-4xl px-16 md:px-32'>About Us</h1>
             <p className="px-16 py-4 md:px-32">
             <p className='font-bold'> Welcome to Hubbly, your go-to platform for convenient and reliable household services. </p>

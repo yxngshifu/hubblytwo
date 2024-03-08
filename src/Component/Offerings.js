@@ -5,7 +5,7 @@ import cooking from '../Assets/cooking.svg';
 
 function Offerings() {
   return (
-    <div className='w-full px-10 md:px-10  text-center relative font-MuseoModerno'>
+    <div className='w-full px-10 md:px-10 text-center relative font-MuseoModerno'>
       <p className=' md:py-4 text-[#048392] text-sm'>ONE STOP HOME SERVICES</p>
       <h1 className='font-bold text-black text-3xl'>Our Offerings</h1>
       <p className='lg:px-80 text-justify'>Our team of experts is committed to delivering excellence in every service we offer. Whether you need help with house cleaning, dog walking, or in-house cooking, you can trust Hubbly to provide reliable and eco-friendly solutions tailored to your needs.</p>

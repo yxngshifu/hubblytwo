@@ -10,7 +10,7 @@ function Support() {
   return (
     <div className='font-MuseoModerno'>
       <Navbar />
-            <div className="w-full px-10 md:px-20">
+            <div className="w-full px-10 md:px-20 lg:py-20">
         <div className="items-center py-10 w-full md:py-16 md:px-8 lg:px-16 xl:px-32 ">
           <p className='text-[#048392] text-sm text-center'>OUR COMMITMENT TO SUSTAINABILITY</p>
           <h1 className='text-black font-bold text-4xl text-center'>Goals We Support</h1>
