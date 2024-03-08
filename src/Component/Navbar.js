@@ -58,7 +58,7 @@ const Navbar = () => {
 
         {/* Reverted back to a vertical list */}
         {nav && (
-          <ul className='flex-col space-y-4 text-white font-bold p-4 items-center'>
+          <ul className='flex-col space-y-8 text-white font-bold p-4 items-center'>
             <li>
               <Link to="/aboutus">
             About Us
