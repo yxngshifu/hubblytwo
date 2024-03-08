@@ -44,26 +44,39 @@ At Hubbly, we understand the demands of modern life, which is why we're here to 
           <h1 className='text-black font-bold text-4xl text-center'>Why Choose Hubbly?</h1>
           
           </div>
-
-        <div className='px-8 md:px-10   lg:px-40   lg:gap-10 text-black w-full  justify-between  gap-8  md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
-          <div className=''>
+           <div className='md:px-20 '>
+      <div className=' flex overflow-x-auto py-4 md:py-8 px-4 md:px-10 mb-4  grid-cols-1 md:grid-cols-4 lg:px-40'>
+        <div className='flex-shrink-0  flex flex-col items-center px-4 text-justify mx-4'>
+           <div className=''>
 
             <p className='text-black'> <h2 className="font-bold  text-[#020202] ">Convenience:</h2> With Hubbly, booking household services has never been easier. Simply browse our selection of services, choose the one that suits your needs, and schedule an appointment at your convenience.</p>
           </div>
-          <div>
+        </div>
+
+        <div className='flex-shrink-0 flex flex-col items-center px-4 text-justify mx-4'>
+         <div>
            
             <p className='text-black'><h2 className="font-bold  text-[#020202] ">Quality:</h2> We carefully vet all of our service providers to ensure they meet our high standards of professionalism and expertise. You can trust that you'll receive top-quality service every time.</p>
           </div>
-          <div>
+          
+        </div>
+
+        <div className='flex-shrink-0 flex flex-col items-center px-4 text-justify mx-4'>
+           <div>
      
             <p className='text-black'><h2 className="font-bold  text-[#020202] ">Reliability:</h2> At Hubbly, we understand the importance of reliability. You can count on us to arrive on time, every time, and to complete your service to your satisfaction</p>
           </div>
-          <div>
+          
+        </div>
+         <div className='flex-shrink-0 flex flex-col items-center px-4 text-justify mx-4'>
+           <div>
             <p className='text-black'><h2 className="font-bold  text-[#020202] ">Peace of mind:</h2> With Hubbly, you can enjoy peace of mind knowing that your household tasks are in capable hands. Sit back, relax, and let us handle the rest.</p>
           </div>
-         <div className='py-2 sm:py-4 md:py-6 lg:py-8 xl:py-10'></div>
+          
         </div>
       </div>
+      </div>
+ 
       <div className='bg-[#e0f7f9] '>
           <div className='w-full relative font-MuseoModerno px-6 sm:px-8 md:px-10 lg:px-44 xl:px-44 2xl:px-80 text-center'>
         <div className='px-4 gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
@@ -87,6 +100,7 @@ At Hubbly, we understand the demands of modern life, which is why we're here to 
         </div>
       </div>
       <Footer/>
+        </div>
         </div>
   )
 }
