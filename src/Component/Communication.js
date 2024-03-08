@@ -8,7 +8,7 @@ function Communication() {
         <p className='mb-0 text-[#048392] text-sm'>WHERE YOU ARE</p>
         <h1 className='font-bold text-3xl md:text-2xl lg:text-3xl text-black'>Convenient Communication</h1>
         <p className='text-md lg:text-lg'>Chat or Talk with us on your favorite messenger platforms</p>
-        <img className=" lg:w-[400px] my-4 py-10 md:w-[400px]" src={communicate1} alt="Communication" />
+        <img className=" lg:w-[400px] my-4 py-10 md:w-[300px] w-[200px]" src={communicate1} alt="Communication" />
       </div>
     </div>
   );
