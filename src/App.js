@@ -45,7 +45,7 @@ function App() {
          <Route path="booking" element={<Booking/>} />
          <Route path="trusted" element={<Trusted/>} />
          <Route path="pricing" element={<Pricing/>} />
-         <Route path="support" element={<Supportive/>} />
+         <Route path="wesupport" element={<Supportive/>} />
          <Route path="privacy" element={<Privacy/>} />
           <Route path="ourofferings" element={<OurOfferings/>} />
           <Route path="aboutus" element={<AboutUs/>} />
