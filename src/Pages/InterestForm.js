@@ -78,8 +78,8 @@ function InterestForm() {
                 />
               </div>
             <button
-              type="submit"
-              className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-700 cursor-pointer"
+              type="Sign up"
+              className="bg-[#048392] text-white p-2 rounded-md hover:bg-blue-700 cursor-pointer"
             >
               Submit
             </button>
