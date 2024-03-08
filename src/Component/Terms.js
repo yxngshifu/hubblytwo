@@ -246,14 +246,131 @@ Nothing in these T&Cs limits or excludes Hubbly’s liability to a Hubblee for p
   <h1 className=' py-2'>10.2 HUBBLY’S LIABILITY TO HUBBLERS
 </h1>
 To the extent permitted by law, Hubbly is not liable to Hubblers for the following:
-any theft or loss of property in connection with the Hubbly Services.
-any loss, damage, expenses or liability suffered by any third party in connection with the Hubbler’s use of the Platform.
-any loss as a result of temporary access difficulties or other inability by the Hubbler in using the Platform, the Account or Hubbly Services.
+ <ul className='py-2 px-6 text-justify list-disc'>
+              <li className=' py-2'>
+                any theft or loss of property in connection with the Hubbly Services.
+              </li>
+              <li className=' py-2'>any loss, damage, expenses or liability suffered by any third party in connection with the Hubbler’s use of the Platform.</li>
+
+ <li className=' py-2'>any loss as a result of temporary access difficulties or other inability by the Hubbler in using the Platform, the Account or Hubbly Services.
+</li>
+ <li className=' py-2'>
 any loss which is the result of an error by the Hubbler, circumstances outside of Hubbly’s control (even if we have taken reasonable care, such as disruptions in third party telecommunication networks) or due to the inherent limitations of the operation of an online service.
-any loss of profit, loss or inaccuracy of data (not including personal data), loss of business, business interruption, or loss of business opportunity of the Hubbler; or
-any other loss, damage, costs or liability incurred by the Hubbler in connection with the Hubbly Services, save to the extent that this is due to a failure of Hubbly to perform its obligations in delivering the Hubbly Services with reasonable skill and care to the standard of a professional provider of similar digital intermediary services.
-In the event where Hubbly is held and proven liable to Hubblers, its liability is limited to an amount equal to the total cost of the At-home Service in aggregate.
+</li>any loss of profit, loss or inaccuracy of data (not including personal data), loss of business, business interruption, or loss of business opportunity of the Hubbler; or
+ <li className=' py-2'>any other loss, damage, costs or liability incurred by the Hubbler in connection with the Hubbly Services, save to the extent that this is due to a failure of Hubbly to perform its obligations in delivering the Hubbly Services with reasonable skill and care to the standard of a professional provider of similar digital intermediary services.
+</li>In the event where Hubbly is held and proven liable to Hubblers, its liability is limited to an amount equal to the total cost of the At-home Service in aggregate.
 Nothing in these T&Cs limits or excludes Hubbly’s liability to a Hubbler for personal injury or death caused directly by Hubbly’s negligence.
+</ul>
+</p>
+<h1 className='text-[#048392] px-10'>11. USER COMMITMENTS
+</h1>
+<p>
+     <h1 className=' py-2'>11.1 Joint User Commitments
+</h1>
+<ul className='py-2 px-6 text-justify list-disc'>
+              <li className=' py-2'>
+                to adhere to the laws and regulations in force, to not undermine public order, moral standards or third-party rights, and to not breach any legislative or regulatory provision.
+              </li>
+<li className=' py-2'>
+to not authorise any third party to use their Account.</li>
+<li className=' py-2'>
+to not publish Content, which is abusive, defamatory, disparaging, slanderous, clearly illicit, false, harmful to public order or third-party rights, or likely to infringe the rights, reputation and image of Hubbly or of another User.</li>
+<li className=' py-2'>to not use the Platform or Hubbly Services in a fraudulent manner (e.g., a false account or a false identity) and/or harm the interests of Hubbly or of another User.
+</li>
+<li className=' py-2'>
+to not hand over or transfer their Account in any way to a third party.
+</li>
+<li className=' py-2'>
+to provide Hubbly with all the necessary information for the provision of Hubbly Services and to guarantee their accuracy.
+</li>
+<li className=' py-2'>
+to make fair use of the Platform and Hubbly Services; in other words, to take part in the registration process, Bookings and scoring system.
+</li>
+<li className=' py-2'>
+to inform Hubbly in case of any issues, or any problems with another User or when using the Platform, the Account and Hubbly Services; and
+</li>
+<li className=' py-2'>
+to keep any exchanges, conversations, information and more generally, any elements concerning the At-home Services, Bookings and exchanges between Users or with Hubbly, strictly confidential and to not share them with any third party (the User agrees and acknowledges that Hubbly may access chat and other communications conducted on the Platform).
+</li>
+</ul>
+The User understands and accepts that the following are strictly forbidden: (i) any behaviour likely to disrupt, suspend, slow down or prevent the continuity of the Platform or Hubbly Services, (ii) any intrusion, or attempt to intrude, the Hubbly systems, (iii) any misuse of the system resources of the Account and of the Platform, (iv) any actions likely to place a disproportionate load on the Hubbly digital infrastructure, (v) any breach of security and verification measures, (vi) any action likely to damage the financial, commercial or legal rights and interests of Hubbly and other Users, (vii) any failure to comply with the T&Cs, (viii) any copy of and/or misuse of the Hubbly digital infrastructure and (ix) in general, any practice which uses the Platform and Hubbly Services for purposes other than those for which they were designed.
+ <h1 className=' py-2'>11.2 Hubblee Commitments
+</h1>
+The Hubblee expressly undertakes:
+<ul className='py-2 px-6 text-justify list-disc'>
+              <li className=' py-2'>
+               to have a proper, polite and appropriate attitude towards the Hubblers.
+              </li>
+<li className=' py-2'>
+to not cancel Bookings in a recurrent or repetitive way.
+</li>
+<li className=' py-2'>
+to provide Hubblers with the best possible working environment so that they can provide the At-home Service under the best conditions.
+</li>
+<li className=' py-2'>
+to inform the Hubbler of any conditions specific to the At-home Services, and in particular, inform the Hubbler of the presence of any animals in the Hubblee's home (this may prevent certain Hubblers with allergies from providing At-home Services); and
+</li>
+<li className=' py-2'>
+to not contact the Hubblers after the provision of an At-home Service in order to receive At-home Services outside of the Platform.
+</li>
+</ul>
+<h1 className=' py-2'>11.3 Hubbler Commitments
+</h1>
+The Hubbler expressly undertakes:
+<ul className='py-2 px-6 text-justify list-disc'>
+              <li className=' py-2'>
+               to respond to At-home Service offers sent by Hubbly, whether the response is to accept or reject the offer. The Hubbler is free to accept or refuse an At-home Service offer.
+              </li>
+<li className=' py-2'>
+to honour the Bookings, they have accepted for the provision of At-home Services.
+</li>
+<li className=' py-2'>
+to possess the skills required for providing At-home Services throughout the duration of the T&Cs, and for as long as they provide At-home Services via the Platform; and
+</li>
+<li className=' py-2'>
+to behave in a fair way towards Hubbly, specifically by asking Hubblees to participate in the fair use of the Platform when the Hubblees wish to book a new At-home Service.
+</li>
+</ul>
+</p>
+<h1 className='text-[#048392] px-10'>12. USER RESPONSIBILITIES
+</h1>
+<p>
+    The User is responsible for their use of the Platform and Hubbly Services; therefore, they are liable for any damage they may cause as a result of their behaviour, or inaccurate, incomplete and/or misleading information which they provide when signing up to the Platform, or by not updating this information, all of which they alone bear the consequences.
+More specifically, Users are responsible for:
+the information they choose to upload into their Account and that they share by using the Platform and Hubbly Services; and
+the negotiation, outcome and execution of contracts which take place between Users for the provision of At-home Services, as Hubbly is solely a digital contact platform.
+</p>
+<h1 className='text-[#048392] px-10'>13. DURATION, SUSPENSION AND TERMINATION
+</h1>
+<h1 className=' py-2'>13.1 Duration of T&CS
+</h1>
+<p>
+    The T&C Agreement comes into force once the User has accepted these T&Cs and remains in force until it is modified (see clause 5 above) or terminated (see clause 13.3 below).
+<h1 className=' py-2'>13.2 Account Restrictions for Hubblers
+</h1>
+<h1 className=' py-2'>13.2.1 Manual restrictions
+</h1>
+The Account and Hubbly Services given to the Hubblers can be restricted for a period not to exceed one (1) month, in the following cases:
+<ul className='py-2 px-6 text-justify list-disc'>
+              <li className=' py-2'>
+               the Hubbler has sent unkind or aggressive messages to the Hubbly teams.
+              </li>
+<li className=' py-2'>
+the Hubbler has behaved in an unkind or aggressive manner towards Hubblees.
+</li>
+<li className=' py-2'>
+the Hubbler has repeatedly received negative reviews from Hubblees.
+</li>
+<li className=' py-2'>
+the Hubbler has not informed a Hubblee in advance of being unable to honour a scheduled appointment.
+</li>
+<li className=' py-2'>
+the Hubbler has repeatedly cancelled appointments at the Hubblees' homes, which the Hubbler had previously accepted.
+</li>
+</ul>
+No later than the time when the restriction comes into effect, Hubbly will send the Hubbler an email specifying (i) the implementation of the restriction measure, (ii) the duration, (iii) the reasons for doing so and (iv) the method in which the Hubbler can provide explanations about the situation.
+During this period, the Hubbler will retain access to the Platform and their Account. The Hubbler’s profile will still be available on the Platform for direct Bookings from existing Hubblees and will be offered to new Hubblees but their ranking will be lowered (further to the scoring described in clause 7.2 above). The Hubbler will therefore be less likely to be contacted for Bookings made by new Hubblees during the restriction period.
+At the end of the specified period, depending on the Hubblers' performances and the development of the situation, the restriction measure will either be lifted, or the T&C Agreement will be terminated, in accordance with the stipulations in clause 13.3.
 
 </p>
           
