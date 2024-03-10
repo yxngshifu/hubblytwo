@@ -39,9 +39,10 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div onClick={handleNav} className='block md:hidden'>
-          {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
-        </div>
+        <div onClick={handleNav} className="block md:hidden" style={{ color: 'black' }}>
+        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+      </div>
+
 
         <div
           className={

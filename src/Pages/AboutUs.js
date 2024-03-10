@@ -1,8 +1,10 @@
 import React from 'react'
-import ourmission from '../Assets/ourmission.png';
+import ourmission1 from '../Assets/ourmission1.svg';
 import Navbar from '../Component/Navbar';
-import phones from '../Assets/phones.png';
-import Community from '../Assets/community.png';
+import doublephone from '../Assets/doublephone .png';
+import hubbleegroup from '../Assets/hubbleegroup.png';
+import appstore from '../Assets/appstore.png';
+import playstore from '../Assets/playstore.png';
 import Footer from '../Component/Footer';
 function AboutUs() {
   return (
@@ -18,7 +20,7 @@ At Hubbly, we understand the demands of modern life, which is why we're here to 
             </p>
           </div>
           <div className="md:w-[400px] px-4 md:px-10">
-            <img className="w-full" src={Community} alt="" />
+            <img className="w-full" src={hubbleegroup} alt="" />
           </div>
         </div>
       </div>
@@ -26,7 +28,7 @@ At Hubbly, we understand the demands of modern life, which is why we're here to 
          <div className='w-full relative font-MuseoModerno px-4 sm:px-6 md:px-6 lg:px-40 xl:px-40 2xl:px-80 text-center'>
         <div className='px-4 lg:gap-0 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
           <div className="md:w-full lg:w-[600px] px-4 md:px-32">
-            <img className="w-full" src={ourmission} alt="Dog Walking" />
+            <img className="w-full" src={ourmission1} alt="Dog Walking" />
           </div>
           <div className="text-justify">
              <h1 className='text-[#048392]  text-sm px-4 md:px-4'>EXPLORE SERVICES</h1>
@@ -75,7 +77,7 @@ At Hubbly, we understand the demands of modern life, which is why we're here to 
             </p>
           </div>
           <div className="md:w-[400px] px-4 md:px-10 py-10 md:py-20">
-            <img className="w-full" src={phones} alt="In-house Cooking" />
+            <img className="w-full" src={doublephone} alt="In-house Cooking" />
           </div>
         </div>
       </div>
@@ -85,6 +87,17 @@ At Hubbly, we understand the demands of modern life, which is why we're here to 
           <h1 className='text-black font-bold text-xl md:text-4xl text-center'>Get a Mobile App</h1>
           <p className='py-2 px-8 md:px-32 text-justify'>
          Discover the convenience and user-friendly experience of our mobile app, now available for both iOS and Android devices. Download it today and enjoy a seamless and effortless way to access our services and stay connected with us.</p>
+        </div>
+     
+          <div className='px-4  text-black w-full  items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+  <div className="md:w-[150px] px-4 md:px-0 py-4 md:py-10">
+    <img className="w-full" src={appstore} alt="In-house Cooking" />
+  </div>
+  <div className="md:w-[200px] px-4 md:px-10 py-4 md:py-10">
+    <img className="w-full" src={playstore} alt="In-house Cooking" />
+  </div>
+
+
         </div>
       </div>
       <Footer/>
