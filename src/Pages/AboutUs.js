@@ -10,7 +10,7 @@ function AboutUs() {
   return (
      <div className='font-MuseoModerno '>
         <Navbar/>
-        <div className='w-full relative font-MuseoModerno px-4 sm:px-6 md:px-8 lg:px-40 xl:px-40 2xl:px-80 text-center'>
+        <div className='w-full relative py-20 font-MuseoModerno px-4 sm:px-6 md:px-8 lg:px-40 xl:px-40 2xl:px-80 text-center'>
         <div className='px-4 gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
           <div className="text-justify lg:py-40 ">
             <h1 className='text-black font-bold text-4xl px-16 md:px-32'>About Us</h1>
@@ -46,8 +46,8 @@ At Hubbly, we understand the demands of modern life, which is why we're here to 
           <h1 className='text-black font-bold text-4xl text-center'>Why Choose Hubbly?</h1>
           
           </div>
-  <div className=' flex overflow-x-auto py-4 md:py-8 px-8 md:px-32 mb-4  grid-cols-1 md:grid-cols-3 lg:px-60'>
-        <div className='px-8 md:px-10   lg:px-40   lg:gap-10 text-black w-full  justify-between  gap-8  md:flex-row flex-col grid grid-cols-1 md:grid-cols-2 ' >
+  <div className=' flex overflow-x-auto  md:py-8  md:px-32 mb-4  grid-cols-1 md:grid-cols-3 lg:px-60'>
+        <div className=' md:px-10   lg:px-40   lg:gap-10 text-black w-full  justify-between  gap-8  md:flex-row flex-col grid grid-cols-1 md:grid-cols-2 ' >
           <div className=''>
 
             <p className='text-black'> <h2 className="font-bold  text-[#020202] ">Convenience:</h2> With Hubbly, booking household services has never been easier. Simply browse our selection of services, choose the one that suits your needs, and schedule an appointment at your convenience.</p>
@@ -71,8 +71,8 @@ At Hubbly, we understand the demands of modern life, which is why we're here to 
           <div className='w-full relative font-MuseoModerno px-6 sm:px-8 md:px-10 lg:px-44 xl:px-44 2xl:px-80 text-center'>
         <div className='px-4 gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
           <div className="text-justify py-8 ">
-            <h1 className='text-black font-bold text-xl px-8 md:px-32'>Get Started Today</h1>
-            <p className="px-8 py-2 md:px-32">
+            <h1 className='text-black font-bold text-xl  md:px-32'>Get Started Today</h1>
+            <p className=" py-2 md:px-32">
             Experience the convenience and quality of Hubbly's household services for yourself. Sign up now to browse our selection of services and book your first appointment. With Hubbly, taking care of your home has never been easier.
             </p>
           </div>
@@ -85,7 +85,7 @@ At Hubbly, we understand the demands of modern life, which is why we're here to 
       <div className="w-full px-8 sm:px-12 md:px-16 lg:px-32 xl:px-64 2xl:px-80">
         <div className="items-center py-10 md:py-16">
           <h1 className='text-black font-bold text-xl md:text-4xl text-center'>Get a Mobile App</h1>
-          <p className='py-2 px-8 md:px-32 text-justify'>
+          <p className='py-2  md:px-32 text-justify'>
          Discover the convenience and user-friendly experience of our mobile app, now available for both iOS and Android devices. Download it today and enjoy a seamless and effortless way to access our services and stay connected with us.</p>
         </div>
      

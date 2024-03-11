@@ -371,7 +371,59 @@ the Hubbler has repeatedly cancelled appointments at the Hubblees' homes, which 
 No later than the time when the restriction comes into effect, Hubbly will send the Hubbler an email specifying (i) the implementation of the restriction measure, (ii) the duration, (iii) the reasons for doing so and (iv) the method in which the Hubbler can provide explanations about the situation.
 During this period, the Hubbler will retain access to the Platform and their Account. The Hubbler’s profile will still be available on the Platform for direct Bookings from existing Hubblees and will be offered to new Hubblees but their ranking will be lowered (further to the scoring described in clause 7.2 above). The Hubbler will therefore be less likely to be contacted for Bookings made by new Hubblees during the restriction period.
 At the end of the specified period, depending on the Hubblers' performances and the development of the situation, the restriction measure will either be lifted, or the T&C Agreement will be terminated, in accordance with the stipulations in clause 13.3.
+<p className=' py-2'> 
+  During this period, the Hubbler will retain access to the Platform and their Account. The Hubbler’s profile will still be available on the Platform for direct Bookings from existing Hubblees and will be offered to new Hubblees but their ranking will be lowered (further to the scoring described in clause 7.2 above). The Hubbler will therefore be less likely to be contacted for Bookings made by new Hubblees during the restriction period.
+</p>
+At the end of the specified period, depending on the Hubblers' performances and the development of the situation, the restriction measure will either be lifted, or the T&C Agreement will be terminated, in accordance with the stipulations in clause 13.3.
 
+<h1 className=' py-2'>13.2.2 Automatic restrictions
+</h1>
+The Account and Hubbly Services given to the Hubbler will be restricted (as described above in clause 13.2.1) in the following cases:
+the Hubbler has not replied to 4 consecutive offers for At-home Services, having had sufficient time to read and reply to them.
+the Hubbler has not accepted any of the last 50 offers sent for At-home Services.
+<p>No later than the time when the restriction comes into effect, Hubbly will send the Hubbler an email specifying (i) the implementation of the restriction measure and (ii) the reasons for doing so.
+During this period, the Hubbler will continue to receive Hubblee Bookings for Hubblees they have already provided At-home Services for. The Hubbler's professional profile will still be online and active, and access to the Platform and their Account will be maintained. Conversely, the Hubbler will no longer be contacted for Bookings made by new Hubblees.
+</p>
+To lift the restriction, the Hubbler can accept an offer of an At-home Service which they received from an existing Hubblee, or request Hubbly to lift the restriction by writing to Hubbly via the chat box in the Platform or via email to: admin@hubbly.me.
+<h1 className=' py-2'>13.3 Termination of the T&C Agreements
+</h1>
+<h1 className=' py-2'>13.3.1 Between the Hubblee and Hubbler
+</h1>
+Hubbly and Hubblees can terminate the T&C Agreement at any time without providing a reason, and without notice, by Hubbly ceasing to provide and/or the Hubblee ceasing to use the Hubbly Services.
+<h1 className=' py-2'>13.3.2 Between the Hubbler and Hubbly
+</h1>
+Termination without notice
+<ul className='py-2 px-6 text-justify list-disc'>
+              <li className=' py-2'>
+            <h1 className=' py-2'>By the Hubbler
+</h1>
+The Hubbler can terminate the T&C Agreement at any time without providing a reason, and without notice
+
+              </li>
+               <li className=' py-2'>
+            <h1 className=' py-2'>By Hubbly
+</h1>
+Hubbly can terminate the T&C Agreement with no notice:
+
+              </li>
+</ul>
+<ul className='py-2 px-6 text-justify list-disc'>
+              <li className=' py-2'>
+               if the Hubbler has not complied with their contractual obligations in accordance with the T&Cs (for example, they do not possess the skills required for the provision of At-home Services).
+              </li>
+<li className=' py-2'>
+if the Hubbler has behaved in an unkind or aggressive manner towards Hubblees.
+</li>
+<li className=' py-2'>
+if the Hubbler has not informed a Hubblee in advance of being unable to honour a scheduled appointment.
+</li>
+<li className=' py-2'>if the Hubbler has repeatedly cancelled appointments at the Hubblees' homes, which the Hubbler had previously accepted.
+</li>
+<li className=' py-2'>
+if the Hubbler is no longer able to fulfil their commitments in accordance with the T&Cs (for example, in the event of court ordered insolvency proceedings).
+
+</li>
+</ul>
 </p>
           
           </div>
