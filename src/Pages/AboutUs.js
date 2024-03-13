@@ -85,20 +85,18 @@ At Hubbly, we understand the demands of modern life, which is why we're here to 
       <div className="w-full px-8 sm:px-12 md:px-16 lg:px-32 xl:px-64 2xl:px-80">
         <div className="items-center py-10 md:py-16">
           <h1 className='text-black font-bold text-xl md:text-4xl text-center'>Get a Mobile App</h1>
-          <p className='py-2  md:px-32 text-justify'>
+          <p className='py-2  md:px-60 text-justify'>
          Discover the convenience and user-friendly experience of our mobile app, now available for both iOS and Android devices. Download it today and enjoy a seamless and effortless way to access our services and stay connected with us.</p>
         </div>
      
-          <div className='px-4  text-black w-full  items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
-  <div className="md:w-[150px] px-4 md:px-0 py-4 md:py-10">
+          <div className=' text-black w-full  items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+  <div className="md:w-[800px] px-4 md:px-60 py-4 md:py-10">
     <img className="w-full" src={appstore} alt="In-house Cooking" />
   </div>
-  <div className="md:w-[200px] px-4 md:px-10 py-4 md:py-10">
+  <div className="md:w-[380px] px-4 md:px-10 py-4 md:py-10">
     <img className="w-full" src={playstore} alt="In-house Cooking" />
   </div>
-
-
-        </div>
+  </div>
       </div>
       <Footer/>
         </div>

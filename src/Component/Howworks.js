@@ -5,7 +5,7 @@ import sit from '../Assets/sit.svg';
 
 function Howworks() {
   return (
-    <div className='w-full text-center items-center px-10  md:px-40 font-MuseoModerno py-8'>
+    <div className='w-full text-center items-center px-20  md:px-40 lg:px-60 font-MuseoModerno py-8'>
       <div className=''>
       <p className=' text-[#048392] text-sm'>QUICK, TRUSTED, AVAILABLE</p>
       <h1 className='font-bold text-black text-3xl'>How Hubbly Works</h1>

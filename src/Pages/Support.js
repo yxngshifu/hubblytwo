@@ -5,18 +5,45 @@ import takeoff from '../Assets/takeoff.png';
 import city from '../Assets/cities.png';
 import industry from '../Assets/industry.png';
 import climate from '../Assets/climate.png';
-
+import car from '../Assets/car.svg';
+import trees from '../Assets/trees.png'
+import doublephone from '../Assets/doublephone .png';
+import appstore from '../Assets/appstore.png';
+import playstore from '../Assets/playstore.png';
 function Support() {
+ 
   return (
     <div className='font-MuseoModerno'>
       <Navbar />
+      <div className='w-full relative font-MuseoModerno'>
+  <img className='object-cover w-full' src={trees} alt='Background' />
+  <div className='absolute left-0 md:px-80 top-1/2 transform -translate-y-1/2  text-black '>
+    <h2 className='text-5xl pb-4 md:text-7xl font-bold'>Welcome to Hubbly Sustainable Goals!</h2>
+    <p className='text-md md:text-lg text-justify'>At Hubbly Sustainable Goals, we are committed to harnessing the power of collective action to create a greener, more sustainable world. Join us in supporting initiatives that prioritize environmental conservation, social equity, and sustainable development.</p>
+  </div>
+</div>
+
+      
+       <div className='w-full relative  font-MuseoModerno bg-[#e0f7f9] md:px-20 py-8  lg:px-80 px-10 text-center'>
+      
+      <div className='px-4  gap-6  lg:px-20   lg:gap-8  md:py-20 text-black w-full  justify-between items-center  md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+        <div>
+          <img className=" md:w-[400px]  lg:w-[500px] px-10  my-4" src={car} alt="/" />
+        </div>
+        <div className="text-justify">
+          <h1 className="lg:px-20 px-4 md:px-10 text-black font-bold text-4xl ">Our mission</h1>
+  <p className="py-4 s lg:px-20 px-4 md:px-10 mb-4">
+    At Hubbly, sustainability isn't just a goal—it's a way of life. We're committed to driving positive environmental change in everything we do, from the services we provide to the way we operate our platform. Join us on our journey towards a greener, more sustainable future.
+  </p>
+</div>
+
+      </div>
+    </div>
             <div className="w-full px-10 md:px-20 lg:py-20">
         <div className="items-center py-10 w-full md:py-16 md:px-8 lg:px-16 xl:px-32 ">
-          <p className='text-[#048392] text-sm text-center'>OUR COMMITMENT TO SUSTAINABILITY</p>
-          <h1 className='text-black font-bold text-4xl text-center'>Goals We Support</h1>
-          <p className='py-2 px-10  text-justify'>
-            Join Hubbly in achieving UN Sustainable Development Goals. Our Commitment to Sustainability At Hubbly, we believe that every action, no matter how small, contributes to a larger impact on the environment and community. Our commitment to sustainability is woven into the fabric of our operations, reflecting in every service we offer and every connection we make.
-          </p>
+         
+          <h1 className='text-black font-bold text-4xl text-center'>Our Sustainable Goals</h1>
+          
           </div>
 
         <div className='px-8 md:px-10   lg:px-40   lg:gap-10 text-black w-full  justify-between  gap-8  md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
@@ -38,8 +65,8 @@ function Support() {
           </div>
         </div>
       </div>
-
-     <div className='w-full flex justify-center items-center text-center py-14 px-10 md:flex-row flex-col'>
+<div className='bg-[#e0f7f9]'>
+     <div className='w-full flex justify-center items-center text-center  py-14 px-10 md:flex-row flex-col'>
       <div className='flex flex-col items-center'>
         <p className='text-black font-semibold text-4xl'>UN Sustainable Development Goals(SDGs)</p>
         <h1 className='text-black py-4 text-2xl'>Hubbly aligns its initiatives with several UN SDGs, including:</h1>
@@ -76,11 +103,59 @@ function Support() {
           <p>Hubbly's electric fleet and waste reduction strategies directly address the need for climate action. By choosing Hubbly, you're not just getting efficient home services; you're becoming part of a movement towards a sustainable, responsible, and eco-friendly future.</p>
         </div>
       </div>
-      <div className='py-10'>
+      </div>
+      <div className='w-full relative  font-MuseoModerno  md:px-20 py-8  lg:px-80 px-10 text-center'>
+      
+      <div className='px-4  gap-6  lg:px-20   lg:gap-8  md:py-20 text-black w-full  justify-between items-center  md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+        <div>
+          <img className=" md:w-[400px]  lg:w-[500px] px-10  my-4" src={car} alt="/" />
+        </div>
+        <div className="text-justify">
+          <h1 className="lg:px-20 px-4 md:px-10 text-black font-bold text-4xl ">Sustainable Causes we support</h1>
+  <p className="py-4 s lg:px-20 px-4 md:px-10 mb-4">
+    At Hubbly, sustainability isn't just a goal—it's a way of life. We're committed to driving positive environmental change in everything we do, from the services we provide to the way we operate our platform. Join us on our journey towards a greener, more sustainable future.
+  </p>
+</div>
 
-      <Footer />
       </div>
     </div>
+      <div className='bg-[#e0f7f9] '>
+          <div className='w-full relative font-MuseoModerno px-6 sm:px-8 md:px-10 lg:px-44 xl:px-44 2xl:px-80 text-center'>
+        <div className='px-4 gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+          <div className="text-justify py-8 ">
+            <h1 className='text-black font-bold text-xl  md:px-32'>Get Started Today</h1>
+            <p className=" py-2 md:px-32">
+            Experience the convenience and quality of Hubbly's household services for yourself. Sign up now to browse our selection of services and book your first appointment. With Hubbly, taking care of your home has never been easier.
+            </p>
+          </div>
+          <div className="md:w-[400px] px-4 md:px-10 py-10 md:py-20">
+            <img className="w-full" src={doublephone} alt="In-house Cooking" />
+          </div>
+        </div>
+      </div>
+      </div>
+      <div className="w-full px-8 sm:px-12 md:px-16 lg:px-32 xl:px-64 2xl:px-80">
+        <div className="items-center py-10 md:py-16">
+          <h1 className='text-black font-bold text-xl md:text-4xl text-center'>Get a Mobile App</h1>
+          <p className='py-2  md:px-60 text-justify'>
+         Discover the convenience and user-friendly experience of our mobile app, now available for both iOS and Android devices. Download it today and enjoy a seamless and effortless way to access our services and stay connected with us.</p>
+        </div>
+     
+          <div className=' text-black w-full  items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+  <div className="md:w-[800px] px-4 md:px-60 py-4 md:py-10">
+    <img className="w-full" src={appstore} alt="In-house Cooking" />
+  </div>
+  <div className="md:w-[380px] px-4 md:px-10 py-4 md:py-10">
+    <img className="w-full" src={playstore} alt="In-house Cooking" />
+  </div>
+  </div>
+  
+
+      
+      </div>
+      <Footer />
+    </div>
+    
   );
 }
 
