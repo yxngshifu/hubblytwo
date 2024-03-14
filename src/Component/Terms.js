@@ -424,7 +424,78 @@ if the Hubbler is no longer able to fulfil their commitments in accordance with 
 
 </li>
 </ul>
+<h1 className=' py-2'>
+Termination without notice</h1>
+The T&C Agreement can be terminated without notice by the Hubbler or by Hubbly in the following cases:
+<h1 className=' py-2'>By the Hubbler:</h1>
+<ul className='py-2 px-6 text-justify list-disc'>
+              <li className=' py-2'>
+              if a legal or regulatory obligation makes it impossible for the Hubbler to respect the thirty (30) day notice period.
+              </li>
+              <li className=' py-2'>
+                if the Hubbler can provide proof that Hubbly violated their contractual obligations (several times or in a serious way) with regard to the T&Cs (for example, a lack of access to the Platform or a failure to connect Users).
+              </li>
+              </ul>
+              <h1 className=' py-2'>By Hubbly:</h1>
+              <ul className='py-2 px-6 text-justify list-disc'>
+              <li className=' py-2'>
+              if Hubbly can provide proof that the Hubbler violated their contractual obligations (several times or in a serious way) with regard to the T&Cs (for example, Hubblers not honouring Bookings accepted for the provision of At-home Services).
+              </li>
+              </ul>
+              <h1 className=' py-2'>HUBBLERS - COMPLIANCE WITH TAX AND MODERN SLAVERY OBLIGATIONS</h1>
+              <ul className='py-2 px-6 text-justify list-disc'>
+              <li className=' py-2'>
+                The Hubbler is aware that their activity on the Platform results in legal, tax and modern slavery obligations, which they must fulfil in accordance with the applicable legislation.
+              </li>
+              <li className=' py-2'>
+                The Hubbler is solely responsible for all tax declarations and formalities required for their activity, and must fulfil all the obligations incumbent upon them, if applicable, in accordance with English law.
+               </li>
+               <li>The Hubbler shall not engage in any practice which would violate any applicable law regarding slavery or human trafficking. The Hubbler shall also notify Hubbly by email immediately upon become aware of any actual or potential slavery or human trafficking in connection with the services under the Platform.</li>
+              </ul>
+     <h1 className=' py-2'>AUTONOMY AND INDEPENDENCE</h1>
+     Hubbly and the Hubblers exercise their activity in complete autonomy and independence. Both parties assume the risks of their activity.
+As an independent business Hubbler, the Hubbler is free to choose their workdays and rest days, as well as use the material of their choice for the provision of At-home Services.
+The Hubbler is not subject to an exclusivity agreement with Hubbly. The Hubbler is free to accept a/some similar contract(s) or equivalent to the T&Cs with any natural or legal person, whether or not they are a competitor of Hubbly, but also to provide their services to their own clientele and to offer their services on other websites.
+The Hubbler is not subject to any minimum turnover requirements or activity levels.
+ <h1 className=' py-2'>THIRD PARTY BOOKINGS</h1>
+ When making a Booking on behalf of a third party, the Hubblee undertakes to make the third party (hereinafter, the "Beneficiary") aware of, and agree to, the T&Cs for the At-home Services.
+The Hubblee shall ensure that the Beneficiary complies with the T&Cs. In the event of damage caused by the Beneficiary as a result of non-compliance with the T&Cs, the Hubblee agrees to protect Hubbly against any action, demand or claim of any kind made against Hubbly by a Hubbler, service provider or any other third party.
+<h1 className=' py-2'>INTELLECTUAL PROPERTY</h1>
+The Platform, the Website, the Application, the Hubbly Application and all constituent elements of them (together, the "Intellectual Property Elements"), in particular, but not limited to, software, structures, infrastructures, databases and content of any nature (text, images, visuals, logos, brands, etc.) operated by Hubbly are protected by intellectual property rights.
+All Users recognise and agree that all Intellectual Property Elements, including all associated intellectual property rights, are the exclusive property of Hubbly.
+Any reproduction or representation, in whole or in part, of the Intellectual Property Elements without authorisation from Hubbly is forbidden unless otherwise permitted by law.
+Likewise, unless Hubbly has given prior written authorisation, the User is forbidden to use, reproduce, adapt, modify, create derived works from, distribute, sub-license, sell, transfer, publicly present, transmit, broadcast or operate in any way the Intellectual Property Elements unless otherwise permitted by law.
+<h1 className=' py-2'>PERSONAL DATA</h1>
+Hubbly places great importance on Users' personal data and complies with Regulation (EU) 2016/279 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (GDPR).
+For more information regarding the processing and safeguarding of their personal data, Users can refer to Hubbly's privacy policy on the Website, available at the following address: https://www.hubbly.me/privacy
+<h1 className=' py-2'>SETTLEMENT OF DISPUTES AND COMPLAINTS PROCESS
+</h1>
+<h1 className=' py-2'>19.1 Disputes</h1>
+In the case of a dispute between a User and Hubbly, the Users and Hubbly undertake to seek an amicable solution. As Hubbly's status is limited to its role as digital platform intermediary, it cannot be held liable for any issues arising out of the poor quality of an At-home Service.
+In the case of a dispute between a Hubbler and a Hubblee, Hubbly can act as a mediator with the aim of finding an amicable solution to the dispute.
+If a dispute remains unresolved Users can contact London Arbitration Centre which is authorised by the Chartered Trading Standards Institute as a certified alternative dispute resolution provider.
+<h1 className=' py-2'>19.2 Complaints</h1>
+For any complaints, the User should contact Hubbly by email at the following address: admin@hubbly.me.
+Hubbly deals with complaints as follows
+Hubbly will contact the User using the contact details provided at registration to understand the complaint.
+Where a Hubblee has a complaint about a Hubbler, Hubbly will then contact the relevant Hubbler to discuss the complaint.
+Hubbly will then work with the Hubblee and the Hubbler to propose a resolution which is acceptable for both parties.
+Where the relevant Users are unable to come to a joint resolution, they will be referred to the mediator detailed above under clause 20.1.
+<h1 className=' py-2'>OTHER
+</h1>
+Hubbly intends to rely upon the written terms set out in these T&Cs (as may be amended in accordance with clause 5 above) as the entire understanding between Hubbly and each User relating to the T&C Agreement. If you and we agree any other changes, please make sure that you request that these are confirmed in writing. That way we can avoid any problems surrounding what we or you are expected to do.
+In the event that a stipulation of the T&Cs proves to be, in whole or in part, null or invalid, the validity of the other T&C clauses will be unaffected and will continue to remain in force.
+If you breach any term of these T&Cs and Hubbly does not take any action against you, we may still take action against you later or if you breach the same term on another occasion or if you breach a different term.
+Only you or  have the right to enforce any provision under these T&Cs
+Applicable Law - Competent Authority
+The T&Cs are governed by, and interpreted in accordance with, French law.
+Any dispute or disagreement concerning the validity, interpretation, execution and/or breach of the T&Cs will fall under the exclusive authority of the Commercial Court of Paris.
+In compliance with Article R.631-3 of the Consumer Code, the consumer can choose, at their discretion, to refer the issue to (in addition to one of the local competent authorities under the Code of Civil Procedure) the authority of the place where they were staying at the time of accepting the agreement, or the place where the damage occurred.
+
+
 </p>
+
+
           
           </div>
           </div>
