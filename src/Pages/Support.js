@@ -10,21 +10,33 @@ import trees from '../Assets/trees.png'
 import doublephone from '../Assets/doublephone .png';
 import appstore from '../Assets/appstore.png';
 import playstore from '../Assets/playstore.png';
-function Support() {
+function Support() {const bgimage = {
+    backgroundImage: `url(${trees})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'cover',
+    backgroundSize: 'cover',
+  };
  
   return (
     <div className='font-MuseoModerno'>
       <Navbar />
-      <div className='w-full py-20 relative font-MuseoModerno'>
-  <img className='object-cover w-full' src={trees} alt='Background' />
-  <div className='absolute   top-1/2 transform -translate-y-1/2  text-black '>
-    <h2 className='text-xl px-20 py-40 pb-4 md:text-4xl font-bold'>Welcome to Hubbly Sustainable Goals!</h2>
-    <p className='text-md px-20 md:text-lg text-justify'>At Hubbly Sustainable Goals, we are committed to harnessing the power of collective action to create a greener, more sustainable world. Join us in supporting initiatives that prioritize environmental conservation, social equity, and sustainable development.</p>
-  </div>
-</div>
-
+   
+<div className='w-full relative font-MuseoModerno text-center items-center' style={bgimage}>
+      <div className='py-8 md:py-20 px-4 s text-center items-center lg:py-20'>
+        <div className='max-w-screen-lg mx-auto'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-8'>
+            <div className='text-black text-md md:text-lg lg:py-12 md:px-40 lg:px-10 lg:text-xl xl:text-2xl'>
+              <h1 className='text-black md:text-2xl lg:text-2xl font-bold text-3xl mb-4'>Welcome to Hubbly Sustainable Goals!</h1>
+              <p className='text-justify '>
+                At Hubbly Sustainable Goals, we are committed to harnessing the power of collective action to create a greener, more sustainable world. Join us in supporting initiatives that prioritise environmental conservation, social equity, and sustainable development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
       
-       <div className='w-full relative  font-MuseoModerno bg-[#e0f7f9] md:px-20 py-8  lg:px-60 px-20 text-center'>
+       <div className='w-full relative  font-MuseoModerno bg-[#e0f7f9] md:px-20   lg:px-60 px-20 text-center'>
       
       <div className=' gap-2  lg:gap-8 md:py-20 text-black w-full  justify-between items-center  md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
         <div>
