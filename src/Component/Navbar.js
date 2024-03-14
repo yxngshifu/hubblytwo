@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logo1 from '../Assets/logo1.svg';
 import { Link } from 'react-router-dom';
@@ -6,33 +6,50 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > 0) {
+        setNav(true);
+      } else {
+        setNav(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   const handleNav = () => {
     setNav(!nav);
   };
 
   return (
-    <div className="font-MuseoModerno bg-transparent fixed top-0 left-0 right-0 z-10">
+    <div className={`font-MuseoModerno bg-transparent fixed top-0 left-0 right-0 z-10 ${nav ? 'hidden' : ''}`}>
       <div className="flex justify-between items-center mx-auto px-4 text-black">
         <ul className="space-x-4 text-black font-bold p-4 flex items-center ml-[-10px]">
           <Link to="/">
             <img className="w-[100px] mx-4 my-4 flex items-center" src={logo1} alt="/" />
           </Link>
-          <li className="hidden md:block">
+          <li className="hidden md:block hover:text-[#2a9d8f] cursor-pointer">
             <Link to="/aboutus">
               About Us
             </Link>
           </li>
-          <li className="hidden md:block">
+          <li className="hidden md:block hover:text-[#2a9d8f] cursor-pointer">
             <Link to="/support">
               Goals We Support
             </Link>
           </li>
-          <li className="hidden md:block">
+          <li className="hidden md:block hover:text-[#2a9d8f] cursor-pointer">
             <Link to="/hubblyworks">
               How Hubbly Works
             </Link>
           </li>
-          <li className="hidden md:block">
+          <li className="hidden md:block hover:text-[#2a9d8f] cursor-pointer">
             <Link to="/ourofferings">
               Our Offerings
             </Link>
@@ -40,9 +57,8 @@ const Navbar = () => {
         </ul>
 
         <div onClick={handleNav} className="block md:hidden" style={{ color: 'black' }}>
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
-      </div>
-
+          {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+        </div>
 
         <div
           className={

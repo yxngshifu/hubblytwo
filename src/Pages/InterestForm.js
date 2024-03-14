@@ -5,18 +5,18 @@ import { Link } from 'react-router-dom';
 
 function InterestForm() {
   return (
-    <div className='w-full relative font-MuseoModerno px-4 sm:px-6 md:px-8 lg:px-40 xl:px-40 2xl:px-80 text-center'>
+    <div className='w-full relative font-MuseoModerno px-20  md:px-40 lg:px-60 text-center'>
       <div className='px-4 gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
-        <div className="text-justify py-10 md:py-20">
+        <div className="text-justify ">
           <Link to="/">
-          <img className="w-[300px] mx-4 my-4 px-10 md:px-20" src={logo1} alt="/" />
+          <img className="w-[100px] lg:w-[100px] mx-4 my-4 " src={logo1} alt="/" />
           </Link>
-          <h1 className='text-black font-bold text-2xl px-10 md:px-20'>Hubbly Expression of Interest Form.</h1>
-          <p className="px-10 py-4 md:px-20">
+          <h1 className='text-black font-bold text-2xl '>Hubbly Expression of Interest Form.</h1>
+          <p className="py-4 ">
             Welcome to Hubbly, where sustainability meets convenience for both Hubblees (those seeking services) and Hubblers (service providers). We’re dedicated to transforming household chores into eco-friendly tasks while ensuring hassle-free experiences for all. Hubbly is more than just a platform: it’s a community-driven initiative aimed at fostering sustainability and promoting responsible living. We value your feedback and input as we strive needs. Ready to join the movement? Share your thoughts with us by filling out the form below and be a part of the Hubbly revolution!
           </p>
 
-          <form className="mb-4 px-10 md:px-20">
+          <form className="mb-4 ">
             <div className="mb-4 flex">
               <div className="flex-1 mr-2">
                 <label htmlFor="lastName" className="block text-sm font-medium text-gray-700">
@@ -89,7 +89,7 @@ function InterestForm() {
           </form>
         </div>
 
-        <div className="md:w-[600px] px-4 md:px-10">
+        <div className="md:w-[600px] ">
           <img className="w-full" src={interest} alt="In-house Cooking" />
         </div>
       </div>
