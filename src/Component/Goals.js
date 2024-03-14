@@ -3,7 +3,7 @@ import goals1 from '../Assets/goals1.png';
 
 function Goals() {
   return (
-    <div className='w-full text-center px-10 md:px-8 lg:px-20 xl:px-40 relative font-MuseoModerno bg-[#e0f7f9] py-8'>
+    <div className='w-full text-center px-20 md:px-40 lg:px-20 xl:px-40 relative font-MuseoModerno bg-[#e0f7f9] py-8'>
       <div className="mx-auto flex flex-col items-center">
         <p className='text-[#048392] text-sm'>OUR COMMITMENT TO SUSTAINABILITY</p>
         <h1 className='font-bold text-3xl md:text-2xl text-black'>Goals We Support</h1>
