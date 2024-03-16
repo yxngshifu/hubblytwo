@@ -1,7 +1,7 @@
 import React from 'react';
-import onebook from '../Assets/onebook.png';
-import twobook from '../Assets/twobook.png';
-import threebook from '../Assets/threebook.png';
+import phone1 from '../Assets/phone1.png';
+import phone2 from '../Assets/phone2.png';
+import phone3 from '../Assets/phone3.png';
 
 function Howworks() {
   return (
@@ -13,34 +13,34 @@ function Howworks() {
       </div>
       <div className='flex items-center overflow-x-auto py-4 md:py-10 mb-4'>
   <div className='flex-shrink-0 flex flex-col items-center px-4 text-justify'>
-    <img className='w-40 md:w-70 lg:w-68 xl:w-40 my-2' src={onebook} alt="/" />
+    <img className='w-40 md:w-60 lg:w-60 my-2' src={phone1} alt="/" />
     <div className='text-center'>
       <h1 className='font-bold'>1</h1>
       <ul className=" text-md">
       
-        <li>Download mobile app play store/app store & Sign Up. </li> 
+        <li className='px-10 md:px-20 lg:px-40'>Download mobile app play store/app store & Sign Up. </li> 
       </ul>
     </div>
   </div>
 
   <div className='flex-shrink-0 flex flex-col items-center text-justify'>
-    <img className='w-40 md:w-79 lg:w-68 xl:w-40 my-2' src={twobook} alt="/" />
+    <img className='w-40 md:w-60 lg:w-60  my-2' src={phone2} alt="/" />
     <div className='text-center'>
       <h1 className='font-bold'>2</h1>
       <ul className=" text-md">
        
-        <li>Navigate through the available service that meets your needs.</li> 
+        <li className='px-10 md:px-20 lg:px-40' >Navigate through the available service that meets your needs.</li> 
       </ul>
     </div>
   </div>
 
   <div className='flex-shrink-0 flex flex-col items-center text-justify'>
-    <img className='w-40 md:w-580 lg:w-68 xl:w-40  my-2' src={threebook} alt="/" />
+    <img className='w-40 md:w-60 lg:w-60 my-2' src={phone3} alt="/" />
     <div className='text-center'>
       <h1 className='font-bold'>3</h1>
       <ul className=" text-md">
        
-        <li>Streamline your bookings & proceed to payments. Enjoy quality services.</li> 
+        <li className='px-10 md:px-20 lg:px-40'>Streamline your bookings & proceed to payments. Enjoy quality services.</li> 
       </ul>
     </div>
   </div>

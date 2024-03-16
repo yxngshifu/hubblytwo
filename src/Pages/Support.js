@@ -6,12 +6,12 @@ import city from '../Assets/cities.png';
 import industry from '../Assets/industry.png';
 import climate from '../Assets/climate.png';
 import car from '../Assets/car.svg';
-import trees from '../Assets/trees.png'
+import golashero from '../Assets/goalshero.jpg'
 import doublephone from '../Assets/doublephone .png';
 import appstore from '../Assets/appstore.png';
 import playstore from '../Assets/playstore.png';
 function Support() {const bgimage = {
-    backgroundImage: `url(${trees})`,
+    backgroundImage: `url(${golashero})`,
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'cover',
     backgroundSize: 'cover',
