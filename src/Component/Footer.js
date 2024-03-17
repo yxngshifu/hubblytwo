@@ -84,7 +84,7 @@ function Footer() {
               </Link>
             </li>
             <li className="hover:text-black cursor-pointer">
-              <Link to="/terms">onClick={scrollToTop}
+              <Link to="/terms"onClick={scrollToTop}>
               Terms & Condtions
               </Link>
             </li>
