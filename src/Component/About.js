@@ -1,5 +1,5 @@
 import React from 'react';
-
+import HubblyAd from '../Assets/HubblyAd.mp4'
 function About() {
   return (
     <div className='font-MuseoModerno'>
@@ -19,7 +19,8 @@ function About() {
       <div className="w-full h-full flex items-center justify-center order-first lg:order-last">
         {/* You can replace the video source with your actual video file */}
         <video controls className="max-w-full max-h-full">
-          <source src="your-video-file.mp4" type="video/mp4" />
+            <source src={HubblyAd} type="video/mp4" />
+
           Your browser does not support the video tag.
         </video>
       </div>
