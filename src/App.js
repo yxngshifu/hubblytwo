@@ -24,6 +24,7 @@ import OurOfferings from './Pages/OurOfferings'
 import AboutUs from './Pages/AboutUs'
 import InterestForm from './Pages/InterestForm'
 import Terms from './Component/Terms'
+import Contact from './Component/Contact'
 function App() {
   return (
     <div>
@@ -52,6 +53,7 @@ function App() {
           <Route path="ourofferings" element={<OurOfferings/>} />
           <Route path="aboutus" element={<AboutUs/>} />
            <Route path="interestform" element={<InterestForm/>} />
+              <Route path="contact" element={<Contact/>} />
         </Routes>
     </div>
   /</Router>

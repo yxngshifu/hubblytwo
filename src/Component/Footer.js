@@ -59,7 +59,9 @@ function Footer() {
               </Link>
             </li>
             <li className="hover:text-black cursor-pointer">
+                 <Link to="/contact"onClick={scrollToTop}>
               Contact Us
+              </Link>
             </li>
             <li className="hover:text-black cursor-pointer">
                <Link to="/support"onClick={scrollToTop}>
