@@ -13,10 +13,8 @@ function Contact() {
                       <h1 className='text-black font-bold text-2xl '>Contact Us</h1>
                       <p className="py-4 text-justify ">
                         We value your feedback and are committed to providing you with the best possible service. Don't hesitate to reach out to us with any questions or concerns. We look forward to hearing from you!
-Fill out the form below with your details and message, and we'll get back to you as soon as possible.
-
-                      </p>
-                     
+                        Fill out the form below with your details and message, and we'll get back to you as soon as possible.
+            </p>     
               </div>
                <div>
                         <form className="mb-4 ">
@@ -30,7 +28,6 @@ Fill out the form below with your details and message, and we'll get back to you
                   id="lastName"
                   name="lastName"
                   className="mt-1 p-2 w-full border rounded-md bg-[#e0f7f9]"
-                 
                 />
               </div>
               <div className="flex-1 ml-2">

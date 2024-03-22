@@ -22,7 +22,7 @@ function Support() {const bgimage = {
       <Navbar />
    
 <div className='w-full relative font-MuseoModerno text-center items-center' style={bgimage}>
-      <div className='py-8 md:py-20 px-4 s text-center items-center lg:py-20'>
+      <div className='py-20 md:py-20 px-20 text-center items-center lg:py-20'>
         <div className='max-w-screen-lg mx-auto'>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-8'>
             <div className='text-black text-md md:text-lg lg:py-12 md:px-40 lg:px-10 lg:text-xl xl:text-2xl'>
