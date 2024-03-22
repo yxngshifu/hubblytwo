@@ -1,12 +1,15 @@
 import React from 'react';
+{/*
 import interest from '../Assets/interest.png';
 import logo1 from '../Assets/logo1.svg';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';*/}
 
 function InterestForm() {
   return (
     <div className='w-full relative font-MuseoModerno px-20  md:px-40 lg:px-60 text-center'>
-      <div className='px-4 gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+      <iframe class="airtable-embed" src="https://airtable.com/embed/apphhUTm6uU3NZcqt/shrfqAoiX3LDmYocR?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+    {/*  <div className='px-4 gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
         <div className="text-justify ">
           <Link to="/">
           <img className="w-[100px] lg:w-[100px] mx-4 my-4 " src={logo1} alt="/" />
@@ -95,7 +98,7 @@ function InterestForm() {
       </div>
       <div className="w-full">
    
-    </div>
+  </div>*/}
     </div>
   );
 }
