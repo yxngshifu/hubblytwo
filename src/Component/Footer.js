@@ -33,7 +33,7 @@ function Footer() {
               About Us
                </Link>
             </li>
-            <Link to="/greenmaker"onClick={scrollToTop}>
+            <Link to="/initiative"onClick={scrollToTop}>
             <li className="hover:text-black cursor-pointer">
              What makes Us Green?
             </li>

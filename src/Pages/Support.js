@@ -10,7 +10,8 @@ import golashero from '../Assets/goalshero.jpg'
 import doublephone from '../Assets/doublephone .png';
 import appstore from '../Assets/appstore.png';
 import playstore from '../Assets/playstore.png';
-function Support() {const bgimage = {
+function Support() {
+  const bgimage = {
     backgroundImage: `url(${golashero})`,
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'cover',

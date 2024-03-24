@@ -26,6 +26,7 @@ import InterestForm from './Pages/InterestForm'
 import Terms from './Component/Terms'
 import Contact from './Component/Contact'
 import Airtable from './Component/Airtable'
+import Initiative from './Component/Initiative'
 function App() {
   return (
     <div>
@@ -56,6 +57,7 @@ function App() {
            <Route path="interestform" element={<InterestForm/>} />
               <Route path="contact" element={<Contact/>} />
               <Route path='airtable' element={<Airtable/>} />
+                 <Route path='initiative' element={<Initiative/>} />
         </Routes>
     </div>
   /</Router>
