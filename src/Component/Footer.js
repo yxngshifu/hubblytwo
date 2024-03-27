@@ -76,7 +76,7 @@ function Footer() {
               Testimonials
             </li>
             <li className="hover:text-black cursor-pointer">
-               <Link to="/airtable"onClick={scrollToTop}>
+               <Link to="/interestform"onClick={scrollToTop}>
               Join Hubbly Community
               </Link>
             </li>

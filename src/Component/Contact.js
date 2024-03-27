@@ -1,8 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
 function Contact() {
+  const [status, setStatus] = useState("Submit");
+
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
+    const { name, email, message } = e.target.elements;
+    let details = { 
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    };
+
+    try {
+      let response = await fetch("https://api.hubbly.me/index.php/api/v1/web/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json;charset=utf-8",
+        },
+        body: JSON.stringify(details),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+
+      setStatus("Sent");
+      let result = await response.json();
+      alert("Form successfully submitted");
+    } catch (error) {
+      console.error("An unexpected error occurred:", error);
+      setStatus("Submit");
+      alert("Failed to submit the form. Please try again.");
+    }
+  };
   return (
     <div>
       <Navbar />
@@ -16,33 +51,33 @@ function Contact() {
             </p>
           </div>
           <div className='py-6 lg:py-20'>
-            <form className="mb-4 ">
+            <form  onSubmit={handleSubmit} className="mb-4 ">
               <div className="mb-4 flex">
                 <div className="flex-1 mr-2">
-                  <label htmlFor="lastName" className="block text-sm font-medium text-gray-700">
+                  <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                     Name:
                   </label>
                   <input
                     type="text"
-                    id="lastName"
-                    name="lastName"
+                    id="name"
+                    name="name"
                     className="mt-1 p-2 w-full border rounded-md bg-[#e0f7f9]"
                   />
                 </div>
                 <div className="flex-1 ml-2">
-                  <label htmlFor="firstName" className="block text-sm font-medium text-gray-700">
+                  <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                     Email:
                   </label>
                   <input
                     type="text"
-                    id="firstName"
-                    name="firstName"
+                    id="email"
+                    name="email"
                     className="mt-1 p-2 w-full border rounded-md bg-[#e0f7f9]" 
                   />
                 </div>
               </div>
               <div className="flex-1 ml-2">
-                <label htmlFor="firstName" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="message" className="block text-sm font-medium text-gray-700">
                   Message:
                 </label>
                 <textarea
@@ -53,10 +88,10 @@ function Contact() {
                 ></textarea>
               </div>
               <button
-                type="Sign up"
+                type="submit"
                 className="bg-[#048392] text-white p-2 mt-4 rounded-md hover:bg-blue-700 cursor-pointer w-full"
               >
-                Submit
+                     {status}
               </button>
             </form>
           </div>
