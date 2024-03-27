@@ -7,41 +7,46 @@ function Contact() {
 
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("Sending...");
-    const { name, email, message } = e.target.elements;
-    let details = { 
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
+  e.preventDefault();
+  setStatus("Sending...");
 
-    try {
-      let response = await fetch("https://api.hubbly.me/index.php/api/v1/web/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body: JSON.stringify(details),
-      });
+  // Access form elements by their IDs
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
 
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
+  let details = { 
+    name: name,
+    email: email,
+    message: message,
+  };
 
-      setStatus("Sent");
-      let result = await response.json();
-      alert("Form successfully submitted");
-    } catch (error) {
-      console.error("An unexpected error occurred:", error);
-      setStatus("Submit");
-      alert("Failed to submit the form. Please try again.");
+  try {
+    let response = await fetch("https://api.hubbly.me/index.php/api/v1/web/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(details),
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
     }
+
+    setStatus("Sent");
+    let result = await response.json();
+    alert("Form successfully submitted");
+  } catch (error) {
+    console.error("An unexpected error occurred:", error);
+    setStatus("Submit");
+    alert("Failed to submit the form. Please try again.");
+  }
   };
   return (
     <div>
       <Navbar />
-      <div className='font-MuseoModerno px-20 py-20 lg:py-20 py-10 md:px-20 lg:px-40 text-center'>
+      <div className='font-MuseoModerno px-20 py-20 lg:py-20  md:px-20 lg:px-40 text-center'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 text-black justify-between items-center'>
           <div>
             <p>We would love to hear from you</p>
@@ -81,6 +86,7 @@ function Contact() {
                   Message:
                 </label>
                 <textarea
+                id='message'
                   cols='8'
                   rows='10'
                   placeholder='Type something'
