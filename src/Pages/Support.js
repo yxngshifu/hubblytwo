@@ -28,7 +28,7 @@ function Support() {
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-8'>
             <div className='text-black text-md md:text-lg lg:py-12 md:px-40 lg:px-10 lg:text-xl xl:text-2xl'>
               <h1 className='text-black md:text-2xl lg:text-2xl font-bold text-3xl mb-4'>Welcome to Hubbly Sustainable Goals!</h1>
-              <p className='text-justify '>
+              <p className='text-justify text-[#494D4D] font-Raleway font-medium '>
                 At Hubbly Sustainable Goals, we are committed to harnessing the power of collective action to create a greener, more sustainable world. Join us in supporting initiatives that prioritise environmental conservation, social equity, and sustainable development.
               </p>
             </div>
@@ -45,7 +45,7 @@ function Support() {
         </div>
         <div className="text-justify">
           <h1 className="  text-black font-bold text-4xl ">Our mission</h1>
-  <p className="py-4   mb-4">
+  <p className="py-4 text-[#494D4D] font-Raleway font-medium text-md md:text-lg  lg:text-xl xl:text-2xl  mb-4">
     At Hubbly, sustainability isn't just a goal—it's a way of life. We're committed to driving positive environmental change in everything we do, from the services we provide to the way we operate our platform. Join us on our journey towards a greener, more sustainable future.
   </p>
 </div>
@@ -59,22 +59,22 @@ function Support() {
           
           </div>
 
-        <div className='  lg:gap-10 text-black w-full  justify-between  gap-8  md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+        <div className='  lg:gap-10  w-full  justify-between  gap-8  md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
           <div className=''>
             <h2 className="text-2xl font-bold mb-4 text-[#048392] ">Eco-Friendly Hubblers</h2>
-            <p className='text-black'>We've curated a community of Hubblers who share our commitment to sustainable practices. From using eco-friendly cleaning products to adopting green technologies, our Hubblers contribute to a healthier and more sustainable lifestyle for our users.</p>
+            <p className='t text-[#494D4D] font-Raleway font-medium text-md md:text-lg  lg:text-xl xl:text-2xl'>We've curated a community of Hubblers who share our commitment to sustainable practices. From using eco-friendly cleaning products to adopting green technologies, our Hubblers contribute to a healthier and more sustainable lifestyle for our users.</p>
           </div>
           <div>
             <h2 className="text-2xl font-bold mb-4 text-[#048392]">Green Transportation</h2>
-            <p className='text-black'>Hubbly is proud to lead the way in green mobility. We reward our Hubblers and Hubblee that adopt the use of electric bikes or electric vehicles, not only reducing carbon emissions but also setting the standard for environmentally conscious transportation in the home services industry. By choosing Hubbly, you're contributing to cleaner air and a greener future.</p>
+            <p className='text-[#494D4D] font-Raleway font-medium text-md md:text-lg  lg:text-xl xl:text-2xl'>Hubbly is proud to lead the way in green mobility. We reward our Hubblers and Hubblee that adopt the use of electric bikes or electric vehicles, not only reducing carbon emissions but also setting the standard for environmentally conscious transportation in the home services industry. By choosing Hubbly, you're contributing to cleaner air and a greener future.</p>
           </div>
           <div>
             <h2 className="text-2xl font-bold mb-4 text-[#048392]">Waste Reduction Strategies</h2>
-            <p className='text-black'>We actively discourage single-use packing materials and implement strategies to minimize waste. Hubbly diverts waste away from landfills whenever possible, opting for recycling centres and sustainable disposal methods. It's a step towards a cleaner and less wasteful community.</p>
+            <p className='text-[#494D4D] font-Raleway font-medium text-md md:text-lg  lg:text-xl xl:text-2xl'>We actively discourage single-use packing materials and implement strategies to minimize waste. Hubbly diverts waste away from landfills whenever possible, opting for recycling centres and sustainable disposal methods. It's a step towards a cleaner and less wasteful community.</p>
           </div>
           <div>
             <h2 className="text-2xl font-bold mb-4 text-[#048392]">Community Empowerment</h2>
-            <p className='text-black'>Our commitment extends beyond the individual to the community at large. Hubbly's sustainable practices empower local communities by creating job opportunities and supporting fair trade principles. We aim to uplift the neighbourhoods we serve, fostering economic growth and social cohesion.</p>
+            <p className='text-[#494D4D] font-Raleway font-medium text-md md:text-lg  lg:text-xl xl:text-2xl'>Our commitment extends beyond the individual to the community at large. Hubbly's sustainable practices empower local communities by creating job opportunities and supporting fair trade principles. We aim to uplift the neighbourhoods we serve, fostering economic growth and social cohesion.</p>
           </div>
         </div>
       </div>
@@ -92,28 +92,28 @@ function Support() {
           <h1 className='font-bold text-2xl text-[#A01B46]'>
             Decent Work and Economic Growth
           </h1>
-          <p>Growth: By creating opportunities for Hubblers and supporting fair trade, Hubbly contributes to economic growth.</p>
+          <p className='text-[#494D4D] font-Raleway text-md md:text-lg  lg:text-xl xl:text-2xl font-medium'>Growth: By creating opportunities for Hubblers and supporting fair trade, Hubbly contributes to economic growth.</p>
         </div>
         <div>
           <img className="w-[80px] my-4" src={city} alt="/" />
           <h1 className='text-[#F9A028] text-2xl font-bold'>
             Sustainable Cities and Communities
           </h1>
-          <p>Through our eco-friendly transportation and waste reduction efforts, Hubbly contributes to building sustainable urban communities.</p>
+          <p className='text-[#494D4D] font-Raleway font-medium text-md md:text-lg  lg:text-xl xl:text-2xl'>Through our eco-friendly transportation and waste reduction efforts, Hubbly contributes to building sustainable urban communities.</p>
         </div>
         <div>
           <img className="w-[80px] my-4" src={industry} alt="/" />
           <h1 className='font-bold text-2xl text-[#F3642C]'>
             Industry, Innovation, and Infrastructure
           </h1>
-          <p>Our commitment to technology-driven solutions and green practices aligns with the goal of fostering innovation.</p>
+          <p className='text-[#494D4D] font-Raleway font-medium text-md md:text-lg  lg:text-xl xl:text-2xl'>Our commitment to technology-driven solutions and green practices aligns with the goal of fostering innovation.</p>
         </div>
         <div className='mb-8'>
           <img className="w-[80px] my-4" src={climate} alt="/" />
           <h1 className='font-bold text-2xl text-[#3C8347]'>
             Climate Action
           </h1>
-          <p>Hubbly's electric fleet and waste reduction strategies directly address the need for climate action. By choosing Hubbly, you're not just getting efficient home services; you're becoming part of a movement towards a sustainable, responsible, and eco-friendly future.</p>
+          <p className='text-[#494D4D] font-Raleway font-medium text-md md:text-lg  lg:text-xl xl:text-2xl'>Hubbly's electric fleet and waste reduction strategies directly address the need for climate action. By choosing Hubbly, you're not just getting efficient home services; you're becoming part of a movement towards a sustainable, responsible, and eco-friendly future.</p>
         </div>
       </div>
       </div>
@@ -125,7 +125,7 @@ function Support() {
         </div>
         <div className="text-justify">
           <h1 className=" text-black font-bold text-4xl ">Sustainable Causes we support</h1>
-  <p className="py-4  mb-4">
+  <p className="text-[#494D4D] font-Raleway font-medium py-4  mb-4 text-md md:text-lg  lg:text-xl xl:text-2xl">
     At Hubbly, sustainability isn't just a goal—it's a way of life. We're committed to driving positive environmental change in everything we do, from the services we provide to the way we operate our platform. Join us on our journey towards a greener, more sustainable future.
   </p>
 </div>
@@ -137,7 +137,7 @@ function Support() {
         <div className='px-4 gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
           <div className="text-justify py-8 lg:px-20 ">
             <h1 className='text-black font-bold text-4xl  '>Get Started Today</h1>
-            <p className=" py-2 ">
+            <p className="text-[#494D4D] font-Raleway font-medium py-4  mb-4 text-md md:text-lg  lg:text-xl xl:text-2xl">
             Experience the convenience and quality of Hubbly's household services for yourself. Sign up now to browse our selection of services and book your first appointment. With Hubbly, taking care of your home has never been easier.
             </p>
           </div>
@@ -150,7 +150,7 @@ function Support() {
       <div className="w-full px-20 md:px-40 lg:px-60">
   <div className="items-center py-10 md:py-16">
     <h1 className='text-black font-bold text-xl md:text-4xl text-center'>Get a Mobile App</h1>
-    <p className='py-2 text-justify'>
+    <p className='py-2 text-justify text-[#494D4D] font-Raleway font-medium text-md md:text-lg  lg:text-xl xl:text-2xl'>
       Discover the convenience and user-friendly experience of our mobile app, now available for both iOS and Android devices. Download it today and enjoy a seamless and effortless way to access our services and stay connected with us.
     </p>
   </div>
