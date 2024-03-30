@@ -86,30 +86,30 @@ function Support() {
       </div>
     </div>
 
-      <div className=' gap-8   px-20 md:px-40 lg:px-60   lg:gap-10 text-black w-full  justify-between  text-justify md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+      <div className=' gap-8   px-20 md:px-40 lg:px-64   lg:gap-10 text-black w-full  justify-between  text-justify md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
         <div>
-          <img className="w-[80px] my-4" src={takeoff} alt="/" />
+          <img className="w-[70px] my-4" src={takeoff} alt="/" />
           <h1 className='font-bold text-2xl text-[#A01B46]'>
             Decent Work and Economic Growth
           </h1>
           <p className='text-[#494D4D] font-Raleway text-md md:text-lg  lg:text-xl xl:text-2xl font-medium'>Growth: By creating opportunities for Hubblers and supporting fair trade, Hubbly contributes to economic growth.</p>
         </div>
         <div>
-          <img className="w-[80px] my-4" src={city} alt="/" />
+          <img className="w-[70px] my-4" src={city} alt="/" />
           <h1 className='text-[#F9A028] text-2xl font-bold'>
             Sustainable Cities and Communities
           </h1>
           <p className='text-[#494D4D] font-Raleway font-medium text-md md:text-lg  lg:text-xl xl:text-2xl'>Through our eco-friendly transportation and waste reduction efforts, Hubbly contributes to building sustainable urban communities.</p>
         </div>
         <div>
-          <img className="w-[80px] my-4" src={industry} alt="/" />
+          <img className="w-[70px] my-4" src={industry} alt="/" />
           <h1 className='font-bold text-2xl text-[#F3642C]'>
             Industry, Innovation, and Infrastructure
           </h1>
           <p className='text-[#494D4D] font-Raleway font-medium text-md md:text-lg  lg:text-xl xl:text-2xl'>Our commitment to technology-driven solutions and green practices aligns with the goal of fostering innovation.</p>
         </div>
         <div className='mb-8'>
-          <img className="w-[80px] my-4" src={climate} alt="/" />
+          <img className="w-[70px] my-4" src={climate} alt="/" />
           <h1 className='font-bold text-2xl text-[#3C8347]'>
             Climate Action
           </h1>
@@ -123,7 +123,7 @@ function Support() {
         <div>
           <img className=" md:w-[400px]  lg:w-[500px]   my-4" src={car} alt="/" />
         </div>
-        <div className="text-justify">
+        <div className="text-justify  px-4 ">
           <h1 className=" text-black font-bold text-4xl ">Sustainable Causes we support</h1>
   <p className="text-[#494D4D] font-Raleway font-medium py-4  mb-4 text-md md:text-lg  lg:text-xl xl:text-2xl">
     At Hubbly, sustainability isn't just a goal—it's a way of life. We're committed to driving positive environmental change in everything we do, from the services we provide to the way we operate our platform. Join us on our journey towards a greener, more sustainable future.
@@ -135,7 +135,7 @@ function Support() {
          <div className='bg-[#e0f7f9] '>
           <div className='w-full relative font-MuseoModerno px-20 md:px-40 lg:px-40 text-justify'>
         <div className='px-4 gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
-          <div className="text-justify py-8 lg:px-20 ">
+          <div className="text-justify py-8 lg:px-10 ">
             <h1 className='text-black font-bold text-4xl  '>Get Started Today</h1>
             <p className="text-[#494D4D] font-Raleway font-medium py-4  mb-4 text-md md:text-lg  lg:text-xl xl:text-2xl">
             Experience the convenience and quality of Hubbly's household services for yourself. Sign up now to browse our selection of services and book your first appointment. With Hubbly, taking care of your home has never been easier.

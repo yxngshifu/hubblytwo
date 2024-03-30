@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import mail from '../Assets/mail.png'
+import x from '../Assets/x.png'
+import phone from '../Assets/phone.png'
+import ig from '../Assets/ig.png'
 
 function Contact() {
   const [status, setStatus] = useState("Submit");
@@ -46,12 +50,12 @@ function Contact() {
   return (
     <div>
       <Navbar />
-      <div className='font-MuseoModerno px-20 py-20 lg:py-20  md:px-20 lg:px-40 text-center'>
+      <div className=' px-20 py-20 lg:py-20  md:px-20 lg:px-40 text-center'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 text-black justify-between items-center'>
           <div>
-            <p>We would love to hear from you</p>
+            <p className='text-md md:text-lg  lg:text-xl xl:text-2xl text-[#494D4D] font-Raleway font-medium'>We would love to hear from you</p>
             <h1 className='text-black font-bold text-2xl'>Contact Us</h1>
-            <p className="py-4 text-justify">
+            <p className="py-4 text-justify text-md md:text-lg  lg:text-xl xl:text-2xl text-[#494D4D] font-Raleway font-medium">
               We value your feedback and are committed to providing you with the best possible service. Don't hesitate to reach out to us with any questions or concerns. We look forward to hearing from you! Fill out the form below with your details and message, and we'll get back to you as soon as possible.
             </p>
           </div>
@@ -101,8 +105,25 @@ function Contact() {
               </button>
             </form>
           </div>
+          
         </div>
       </div>
+     
+       <div className=" flex flex-wrap justify-center items-center font-black">
+      <a href="mailto:Hubbly.me@gmail.com" className="flex flex-col items-center hover:text-blue-700 mr-20 mb-4">
+        <img className="w-20 h-20 mr-2" src={mail} alt="/" /> <span>Hubbly.me@gmail.com</span>
+      </a>
+      <a href="tel:+447364758602" className="flex flex-col items-center  hover:text-blue-700 mr-20 mb-4">
+        <img className="w-20 h-20  mr-2" src={phone} alt="/" /> <span> +447364758602</span>
+      </a>
+      <a href="https://www.instagram.com/hubbly.me?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="flex flex-col  items-center  hover:text-blue-700 mr-20 mb-4">
+        <img className="w-20 h-20  mr-2" src={ig} alt="/" /><span> @hubbly.me</span>
+      </a>
+      <a href="https://x.com/hubbly_me" target="_blank" rel="noopener noreferrer" className="flex flex-col  items-center  hover:text-blue-700 mr-20 mb-4">
+        <img className="w-20 h-20 mr-2" src={x} alt="/" /> <span>X</span>
+      </a>
+     
+    </div>
       <Footer />
     </div>
   );

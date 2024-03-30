@@ -27,7 +27,7 @@ function OurOfferings() {
             <img className="w-full" src={dogwalking} alt="Dog Walking" />
           </div>
           <div className="text-justify">
-            <h1 className='text-black font-bold text-xl lg:px-20 '>Dog Walking</h1>
+            <h1 className='text-black font-bold text-xl  '>Dog Walking</h1>
             <p className="py-4  mb-4 text-md md:text-lg  lg:text-xl xl:text-2xl text-[#494D4D] font-Raleway font-medium">
               Ensure your furry friend gets the exercise they need with our trusted dog walking service. Our experienced dog walkers will keep your pet happy, healthy, and entertained with regular walks tailored to their needs.
             </p>

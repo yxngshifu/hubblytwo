@@ -4,14 +4,14 @@ import Footer from './Footer'
 
 function Terms() {
   return (
-    <div className='font-MuseoModerno'>
+    <div className='text-justify text-md md:text-lg  lg:text-xl xl:text-2xl text-[#494D4D] font-Raleway font-medium'>
       <Navbar />
       <div className="w-full px-10 md:px-40 justify-center">
         <div className="items-center py-10 w-full md:py-20 md:px-8 lg:px-16 xl:px-32">
-          <p className='text-[#048392] text-sm text-center'>TERMS AND CONDITIONS</p>
+          <p className='text-[#048392] text-sm font-bold text-center'>TERMS AND CONDITIONS</p>
           <h1 className='text-black font-bold text-4xl text-center'>Hubbly Terms and Conditions</h1>
           <p className='py-2 px-10 text-justify'>
-            <h1 className='py-4 font-bold'>1. Definitions</h1>
+            <h1 className='py-4 font-bold text-[#048392] font-MuseoModerno '>1. Definitions</h1>
             In these terms and conditions (T&Cs), the following definitions will apply:
           </p>
             <ul className='py-2 px-14 text-justify list-disc'>
@@ -72,7 +72,7 @@ function Terms() {
             </ul>
             <p className='py-2 px-10'>Unless otherwise required in the context, the terms and definitions expressed in the singular also include the plural, and vice versa. 
               </p>
-          <h1 className='text-[#048392] px-10'>2. Purpose and Scope of the T&Cs</h1>
+          <h1 className='text-[#048392] font-MuseoModerno px-10'>2. Purpose and Scope of the T&Cs</h1>
           <p className='py-2 px-10 text-justify'>
            
            Hubbly operates the Platform, which enables Hubblers to be put in contact with Hubblees, so that they can receive At-home Services.
@@ -84,7 +84,7 @@ How to contact us. You can contact us by telephoning our Hubblee service team a
      
           </p>
 
-          <h1 className='text-[#048392] px-10'>3. Signing up to and Accepting the T&Cs</h1>
+          <h1 className='text-[#048392] font-MuseoModerno px-10'>3. Signing up to and Accepting the T&Cs</h1>
           <p className='py-2 px-10 text-justify'>
             <h1 className=' py-2'>3.1 for hubblee:</h1>
             The Hubblee can create their Account and sign up to the Platform via 
@@ -104,7 +104,7 @@ When signing in for the first time, the Hubblers must provide the following info
 When creating an Account, the Hubbler agrees to read the T&Cs which they consent to by ticking the box "I accept the terms and conditions". The Hubbler is free to accept or refuse the T&Cs. If the Hubbler refuses to accept the T&Cs, Hubbly will not provide any Hubbly Services.
 From the moment the Hubbler accepts the T&Cs, they receive an email confirming the Account has been created. This email contains a PDF copy of the terms and conditions which the Hubbler has accepted.
 </p>
- <h1 className='text-[#048392] px-10'>4. Registration Conditions Specific to Hubblers.</h1>
+ <h1 className='text-[#048392] font-MuseoModerno px-10'>4. Registration Conditions Specific to Hubblers.</h1>
  <p className='py-2 px-10  text-justify'>
   To complete the registration process and start offering At-home Services through Hubbly, Hubblers must provide the following information to Hubbly (in addition to the details provided during initial sign-up, as outlined in clause 3.2):
  <ul className='py-2 px-6 text-justify list-disc'>
@@ -119,7 +119,7 @@ Hubblers acknowledge and agree that Hubbly may request their participation in a 
 
 
  </p>
- <h1 className='text-[#048392] px-10'>5. Development of Hubbly Services and Modification of T&Cs</h1>
+ <h1 className='text-[#048392] font-MuseoModerno px-10'>5. Development of Hubbly Services and Modification of T&Cs</h1>
 <p className='py-2 px-10  text-justify'>
    Hubbly is dedicated to enhancing the quality and functionality of its platform and services continuously.
 Hubbly reserves the right to unilaterally modify the Terms and Conditions (T&Cs) and/or Hubbly Services concerning technical aspects of the platform and services, such as implementing new user features or security enhancements, without prior notice, as long as these changes do not result in a price increase or degrade service quality, and as long as the user's agreed-upon aspects are maintained as per the T&Cs.
@@ -127,7 +127,7 @@ For any other modifications to the T&Cs and Hubbly Services, Hubbly will provide
 If the user does not object to the modifications during this period, Hubbly will assume the user has reviewed and accepted the changes. In the event of user objection or refusal, the T&C Agreement will terminate upon the effective date of the modified terms and/or services, and the user will no longer have access to the platform and Hubbly Services. However, termination is contingent upon the fulfilment of any ongoing obligations (e.g., honouring existing bookings) before the modification's effective date.
 
 </p>
- <h1 className='text-[#048392] px-10'>6. Account Access, Use and Security
+ <h1 className='text-[#048392] font-MuseoModerno px-10'>6. Account Access, Use and Security
 </h1>
 <p className='py-2 px-10  text-justify'>
    Access to the Platform and Hubbly Services is for Users only. Every User understands and accepts that they are responsible for the access to, and use of, their Account. Each User agrees to maintain accurate, complete, and up-to-date information in their Account.
@@ -137,7 +137,7 @@ If they have reasons to believe that their sign-in data (in particular, their us
 In such a situation, the User authorises Hubbly to undertake any appropriate measures to prevent any further unauthorised access to the Account.
 
 </p>
-<h1 className='text-[#048392] px-10'>7. Provision of At-home Services</h1>
+<h1 className='text-[#048392] font-MuseoModerno px-10'>7. Provision of At-home Services</h1>
 <p className='py-2 px-10  text-justify'>
     <h1 className=' py-2'>7.1 Booking</h1>
 The Hubblee can make Bookings on the Website or Application. They must select one or several At-home Services from the categories of At-home Services offered and fill out their desired date and time.
@@ -174,7 +174,7 @@ Hubbly has no involvement in providing the At-home Service itself, which is deli
 At the end of an At-home Service, the Hubblee rates the Hubbler using a scoring system. The ratings are considered final and are only deleted in exceptional cases, following an explicit request from the author. Overall Hubbler ratings are shown on the Platform.
 The Hubbler also rates the Hubblee. The ratings provided by the Hubblers are not shown on the Platform.
 </p>
-<h1 className='text-[#048392] px-10'>8. Financial Terms</h1>
+<h1 className='text-[#048392] font-MuseoModerno px-10'>8. Financial Terms</h1>
 <p className='py-2 px-10  text-justify'>
     <h1 className=' py-2'>8.1 PRICES FOR AT-HOME SERVICES</h1>
 The price for At-home Services is set by Hubbly. The price of each specific At-home Service is indicated on the Platform. Hubbly may change the price of At-home Services set on the Platform from time to time without prior notice. However Hubbly will never change the price of a Booking following acceptance on the Platform.
@@ -221,7 +221,7 @@ Bank account details.
 </ul>
 The Hubbler undertakes (i) to transfer the value-added tax which they may be liable for to the Treasury (if applicable), (ii) to ask for and retain a copy of the invoices issued by Hubbly for their account and (iii) to inform Hubbly of any changes to the aforementioned information.]
 </p>
-<h1 className='text-[#048392] px-10'>9. Hubbly's Commitments
+<h1 className='text-[#048392] font-MuseoModerno px-10'>9. Hubbly's Commitments
 </h1>
 <p className='px-10'>
    Hubbly will use reasonable care and skill to make the Platform and Hubbly Services available to Users, to ensure the accessibility and smooth operation of the Platform and to provide digital content of a satisfactory quality.
@@ -262,7 +262,7 @@ any loss which is the result of an error by the Hubbler, circumstances outside o
 Nothing in these T&Cs limits or excludes Hubbly’s liability to a Hubbler for personal injury or death caused directly by Hubbly’s negligence.
 </ul>
 </p>
-<h1 className='text-[#048392] px-10'>11. USER COMMITMENTS
+<h1 className='text-[#048392] font-MuseoModerno px-10'>11. USER COMMITMENTS
 </h1>
 <p>
      <h1 className=' py-2'>11.1 Joint User Commitments
@@ -332,7 +332,7 @@ to behave in a fair way towards Hubbly, specifically by asking Hubblees to parti
 </li>
 </ul>
 </p>
-<h1 className='text-[#048392] px-10'>12. USER RESPONSIBILITIES
+<h1 className='text-[#048392] font-MuseoModerno px-10'>12. USER RESPONSIBILITIES
 </h1>
 <p>
     The User is responsible for their use of the Platform and Hubbly Services; therefore, they are liable for any damage they may cause as a result of their behaviour, or inaccurate, incomplete and/or misleading information which they provide when signing up to the Platform, or by not updating this information, all of which they alone bear the consequences.
@@ -340,7 +340,7 @@ More specifically, Users are responsible for:
 the information they choose to upload into their Account and that they share by using the Platform and Hubbly Services; and
 the negotiation, outcome and execution of contracts which take place between Users for the provision of At-home Services, as Hubbly is solely a digital contact platform.
 </p>
-<h1 className='text-[#048392] px-10'>13. DURATION, SUSPENSION AND TERMINATION
+<h1 className='text-[#048392] font-MuseoModerno px-10'>13. DURATION, SUSPENSION AND TERMINATION
 </h1>
 <h1 className=' py-2'>13.1 Duration of T&CS
 </h1>

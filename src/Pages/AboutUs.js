@@ -33,7 +33,7 @@ function AboutUs() {
           </div>
           <div className="text-justify lg:px-20">
              <h1 className='text-[#048392] font-bold font-Raleway text-sm '>EXPLORE SERVICES</h1>
-            <h1 className='text-black font-bold text-xl '>Our Mission</h1>
+            <h1 className='text-black font-bold text-4xl '>Our Mission</h1>
             <p className="py-4 mb-2  text-[#494D4D] font-medium font-Raleway text-md md:text-lg  lg:text-xl xl:text-2xl">
             Our mission at Hubbly is simple: to provide you with seamless access to a variety of essential household services, all in one convenient platform. Whether you need a dog walker, a home chef for in-house cooking, a meticulous cleaner, a dishwasher, or a hairstylist, Hubbly has you covered.
             </p>
@@ -69,15 +69,15 @@ function AboutUs() {
         </div>
       </div>
       <div className='bg-[#e0f7f9] '>
-          <div className='w-full relative font-MuseoModerno px-20 md:px-40 lg:px-40 text-justify'>
-        <div className='px-4 gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+          <div className='w-full relative font-MuseoModerno px-20 md:px-40 lg:px-34 text-justify'>
+        <div className='gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
           <div className="text-justify py-8 lg:px-20 ">
             <h1 className='text-black font-bold text-4xl  '>Get Started Today</h1>
             <p className=" py-2 text-md md:text-lg  lg:text-xl xl:text-2xl text-[#494D4D] font-Raleway font-medium ">
             Experience the convenience and quality of Hubbly's household services for yourself. Sign up now to browse our selection of services and book your first appointment. With Hubbly, taking care of your home has never been easier.
             </p>
           </div>
-          <div className="md:w-[200px]  py-10 ">
+          <div className="md:w-[200px] lg:w-[400px] lg:px-20 py-10 ">
             <img className="w-full" src={doublephone} alt="In-house Cooking" />
           </div>
         </div>

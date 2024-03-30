@@ -6,8 +6,8 @@ import Footer from '../Component/Footer';
 
 function InterestForm() {
   return (
-    <div className='w-full relative font-MuseoModerno px-20  md:px-40 lg:px-60 text-center'>
-      <div className='px-4 gap-8 text-black w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
+    <div className='w-full relative text-md md:text-lg  lg:text-xl xl:text-2xl text-[#494D4D] font-Raleway font-medium px-20  md:px-40 lg:px-60 text-center'>
+      <div className='px-4 gap-8  w-full justify-between items-center md:flex-row flex-col grid grid-cols-1 md:grid-cols-2'>
         <div className="text-justify ">
           <Link to="/">
           <img className="w-[100px] lg:w-[100px] mx-4 my-4 " src={logo1} alt="/" />
